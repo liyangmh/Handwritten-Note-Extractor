@@ -35,7 +35,7 @@ Important files and folders:
 | `outputs/apple_vision_labnote_page.json` | JSON generated from the Apple Vision OCR path. This demonstrates automatic image-to-JSON extraction. |
 | `reports/example_validation_report.md` | Human-readable validation report for the verified transcript output. |
 | `reports/apple_vision_validation_report.md` | Human-readable validation report for the Apple Vision output. |
-| `reference-paper/` | Related papers used only for experiment context/summary. |
+| `reference-paper/` | Related papers used only for experiment context/summary, summarize after content extraction, used for further insights |
 | `tests/test_labnote_extractor.py` | Regression tests. |
 
 ## Required Packages
@@ -132,13 +132,13 @@ For human review, open the Markdown reports in `reports/`. They summarize the sa
 
 ## What The Algorithm Does Well
 
-- Produces structured JSON rather than a free-form summary.
 - Separates raw extraction from later scientific interpretation.
 - Preserves important scientific symbols and units such as `°C`, `2θ`, `Li+`, `e-`, and `cm^2`.
 - Extracts the main procedure fields: electrolyte, additive, stir time, apparatus, potential, duration, rotation, current density, and temperature table.
 - Checks electrochemical math: `I = J x A`, `Q = I x t`, `n(Li) = Q/F`, and lithium mass.
 - Captures page-specific chemistry, including `LiTFSI`, `diglyme`, `EtOH`, `12-crown-4`, `[Li(12-crown-4)]+`, and the Li plating reaction.
 - Generates human-readable validation reports for manual review.
+- Refer to research paper for future insights or tune the model better interpreting chemistry background data
 - Supports a swappable recognition layer: Apple Vision, verified transcript, or another future handwriting/VLM recognizer.
 
 ## Current Limitations
