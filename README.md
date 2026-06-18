@@ -37,7 +37,6 @@ Important files and folders:
 | `reports/apple_vision_validation_report.md` | Human-readable validation report for the Apple Vision output. |
 | `reference-paper/` | Related papers used only for experiment context/summary. |
 | `tests/test_labnote_extractor.py` | Regression tests. |
-| `DEMO_VIDEO_SCRIPT.md` | Two-minute video demo plan and narration. |
 
 ## Required Packages
 
