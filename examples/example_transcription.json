@@ -1,0 +1,135 @@
+{
+  "description": "Verified line-level transcription for the bundled handwritten lab notebook page.",
+  "lines": [
+    {
+      "region": "margin",
+      "text": "Page 57",
+      "confidence": 0.99
+    },
+    {
+      "region": "header",
+      "text": "Project: Li electrodeposition - glyme electrolytes",
+      "confidence": 0.99
+    },
+    {
+      "region": "header",
+      "text": "cont. from pg 56",
+      "confidence": 0.95
+    },
+    {
+      "region": "date",
+      "text": "June 4",
+      "confidence": 0.99
+    },
+    {
+      "region": "goal",
+      "text": "Goal: Screen electrolyte 240604-B for stable Li plating at 30\u00b0C",
+      "confidence": 0.96
+    },
+    {
+      "region": "recipe",
+      "text": "Electrolyte: 1 M LiTFSI in diglyme : EtOH (4:1 v/v), 20 mL tot",
+      "confidence": 0.94
+    },
+    {
+      "region": "recipe",
+      "text": "Add 5 mol% 12-crown-4 as additive. Stir 20 min",
+      "confidence": 0.93
+    },
+    {
+      "region": "recipe",
+      "text": "T = 22.4\u00b0C, glovebox H2O < 1 ppm",
+      "confidence": 0.96
+    },
+    {
+      "region": "setup",
+      "text": "Working elec.: glassy C RDE (0.3 cm^2); CE: Li foil; ref: Ag/AgCl",
+      "confidence": 0.95
+    },
+    {
+      "region": "deposition",
+      "text": "Deposition run 240604-B1",
+      "confidence": 0.99
+    },
+    {
+      "region": "deposition",
+      "text": "Apply -0.45 V vs Ag/AgCl, 90 min, w = 1600 rpm",
+      "confidence": 0.96
+    },
+    {
+      "region": "deposition",
+      "text": "J = 0.50 mA/cm^2 and A = 0.3 cm^2",
+      "confidence": 0.97
+    },
+    {
+      "region": "deposition",
+      "text": "0.5 mA/cm^2 * 0.3 cm^2 = 1.5E-4 A",
+      "confidence": 0.94
+    },
+    {
+      "region": "deposition",
+      "text": "t = 90 min = 5400 s",
+      "confidence": 0.97
+    },
+    {
+      "region": "deposition",
+      "text": "Q = 1.5E-4 A * 5400 s = 0.81 A*s = 0.81 C",
+      "confidence": 0.95
+    },
+    {
+      "region": "deposition",
+      "text": "n = Q / zF = 0.81 C / 96485 C/mol = 8.4E-6 mol Li",
+      "confidence": 0.92
+    },
+    {
+      "region": "deposition",
+      "text": "1 e- = 1 Li+; 8.4E-6 mol * 6.94 g/mol Li = 5.8E-5 g",
+      "confidence": 0.91
+    },
+    {
+      "region": "chemistry",
+      "text": "Drawn scheme: [Li(12-crown-4)]+ + e- -- -0.45 V vs Ag/AgCl --> Li + LiTFSI",
+      "confidence": 0.9
+    },
+    {
+      "region": "temperature_test",
+      "text": "Electrode Temperature test: hot plate at 30\u00b0C",
+      "confidence": 0.98
+    },
+    {
+      "region": "temperature_test",
+      "text": "0 min 22.4\u00b0C      20 min 30.1\u00b0C",
+      "confidence": 0.98
+    },
+    {
+      "region": "temperature_test",
+      "text": "1 min 23.1\u00b0C      40 min 31.5\u00b0C",
+      "confidence": 0.98
+    },
+    {
+      "region": "temperature_test",
+      "text": "5 min 25.6\u00b0C      1 hr 32.0\u00b0C",
+      "confidence": 0.97
+    },
+    {
+      "region": "temperature_test",
+      "text": "10 min 27.9\u00b0C     1 hr 30 min 32.6\u00b0C",
+      "confidence": 0.96
+    },
+    {
+      "region": "observations",
+      "text": "Film looks grey + dull",
+      "confidence": 0.95
+    },
+    {
+      "region": "observations",
+      "text": "XRD main peak at 2\u03b8 = 2.1\u00b0 (low intens.)",
+      "confidence": 0.92
+    },
+    {
+      "region": "observations",
+      "text": "Shoulder at 2\u03b8 = 4.7\u00b0",
+      "confidence": 0.92
+    }
+  ]
+}

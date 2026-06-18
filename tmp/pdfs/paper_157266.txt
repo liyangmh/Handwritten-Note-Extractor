@@ -1,0 +1,497 @@
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+Contents lists available at ScienceDirect
+
+Journal of Electroanalytical Chemistry
+journal homepage: www.elsevier.com/locate/jelechem
+
+The investigation for electrodeposition behavior of lithium metal in a crown
+ether/propylene carbonate electrolyte
+Xianli Huang ⇑, Dongmei Zhuang, Zhihui Chen, Hao Gong, Tao Wang, Jianping He ⇑, Xiaogang Zhang
+College of Material Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing, 211106, China
+
+A R T I C L E
+
+I N F O
+
+A B S T R A C T
+
+Keywords:
+Lithium metal battery
+Lithium dendrites
+SEI ﬁlm
+Electrodeposition
+Coulombic efﬁciency
+
+It is so far an efﬁcient way for depressing dendrite growth to adjust the electrolyte composition. Therefore, we
+study the electrochemical behavior of lithium metal electrodeposited in a LiPF6-propylene carbonate (PC) electrolyte by adding two kinds of crown ether. The effect of crown ether concentration on the Coulombic efﬁciency of lithium electrodes has be evaluated, and the electrodeposition behavior of lithium metal on
+negative electrode has be analyzed by cyclic voltammetric curve, electrodeposition curve and lithium metal
+deposition morphology. The results show that a certain amount of crown ether (15-crown-5 and 12-crown4) can preferentially coordinate with lithium ion in the electrolyte and form complex compounds, which
+reduce the lithium ions concentration in the “hot spot” and level the lithium electrode greatly by inhibiting
+the preferential growth of lithium dendrite. A uniform and dense nano-columnar lithium layer could be
+obtained at the current density of 2.0 mA cm−2 when the deposition amount is 1.0 mAh cm−2, and the concentration of 15-crown-5 and 12-crown-4 ether are 0.3 M and 0.2 M, respectively. Gaussian calculation results
+show that the lithium-crown complex has a relatively lower lowest unoccupied molecular orbit (LUMO), where
+electrons could be injected during the charging process, leading to decreased Coulumbic efﬁciency.
+
+1. Introduction
+
+to induce uniform nucleation of lithium metal [9]. (2) Build a support
+structure to disperse lithium ion ﬂow and increase the micro speciﬁc
+surface area to thereby reduce the actual current density. Wang’s
+group builds porous copper array current collector to increase the
+micro speciﬁc surface area, thereby reduce the actual current density
+in electrode/electrolyte interface and inhibiting the formation of dendrite [10]. (3) Develop novel functional additives to improve the composition of solid electrolyte interphase (SEI) ﬁlm. Additives such as
+vinylene carbonate (VC) [11], ﬂuoroethylene carbonate (FEC)
+[12,13] LiNO3 [14], Cs+ [15], LiPO2F2 [16], H2O (25–50 ppm)
+[17], LiF [18] etc can be used to suppress lithium dendrite, and it
+has become the common consensus in increasing lithium negative
+CE. Zhang’s group has put forward that add 5% (volume ratio) FEC
+in 1 M LiPF6-ethylene carbonate (EC)/ diethyl carbonate (DEC) halfcell can form a uniform and dense lithium layer, meanwhile the CE
+can still reach 98% after 100 cycles [12]. Recently, Zhang and coworkers presented that add FEC to the lithium oxygen battery, the
+cycle stability has been improved by 3 times when the current density
+is 300 mA g−1 [13]. (4) Explore new lithium salts and solvents to
+improve the compatibility between electrodes, lithium salts and solvents [19–20]. Different electrolytes have different electrochemical
+
+Lithium metal as the negative electrode of the battery has a very
+high theoretical speciﬁc capacity (3860 mAh·g−1, 10 times larger than
+that of carbon material), the most negative potential (-3.040v vs standard hydrogen electrode, S.H.E.), and an extremely low density of
+0.59 g cm−3, resulting in an ideal voltage and theoretical energy density [1,2]. It is considered to be the most likely negative electrode
+scheme for the next generation of high energy density batteries in
+the future, which is called the “holy grail” [3,4]. However, the problems of lithium dendrite and low Coulombic efﬁciency (CE) of lithium
+metal electrode have seriously restricted its practical application
+[5–8]. So how to restrain the growth of lithium dendrite and improve
+lithium stripping/deposition CE of lithium negative electrode become
+a hot spot in current research.
+At present, the dendrite inhibition of lithium metal anode is mainly
+studied from the following aspects. (1) Improve the afﬁnity between
+current collector and lithium to reduce the free energy for lithium
+deposition. Zhang Rui proposed that the energy barrier of lithium
+deposition could be reduced through N-doped graphene, and the afﬁnity between collecting ﬂuid and deposited lithium could be improved
+⇑ Corresponding authors.
+E-mail addresses: xianlihuang@nuaa.edu.cn (X. Huang), jianph@nuaa.edu.cn (J. He).
+
+https://doi.org/10.1016/j.jelechem.2021.115156
+Received 5 June 2020; Received in revised form 16 January 2021; Accepted 9 March 2021
+Available online 20 March 2021
+1572-6657/© 2021 Elsevier B.V. All rights reserved.
+
+X. Huang et al.
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+windows, the migration rate of lithium ions and the passivation ﬁlm
+formed by the decomposition of electrolyte on the surface of the negative electrode, which results in different crystalline form and CE of
+lithium metal. Therefore, adjusting the current commercial electrolyte
+components and looking for the composition of electrolyte with good
+matching of lithium metal electrode are also the focus of current
+research [21].
+In terms of electrolyte composition regulation, ether electrolytes
+such as ethylene glycol dimethyl ether (DME) [22,23], 1,3-dioxolane
+(DOL) [24,25] are favored by people due to their wide electrochemical
+window, low viscosity, good solubility and low cost. It is generally
+believed that the oxygen atoms in ether electrolyte can interact with
+lithium ions to some extent, which is conducive to inhibiting the
+growth of lithium dendrites. This article will ﬁrst propose that 15crown-5 and 12-crown-4 ethers as dendrite inhibiting components to
+introduce into the electrolyte. The charge–discharge behavior of
+lithium metal on the electrode surface was simulated by electrodeposition technology. The inhibition of two kinds of crown ethers on
+lithium metal dendrite and the effect of CE of lithium stripping/deposition on the electrode surface were studied, and the mechanism was
+analyzed.
+
+2.4. The scanning electron microscope morphological observation
+In the glove box, the sample to be tested shall be cleaned at least 3
+times with pure DMC to remove the residual electrolyte, and the deposition matrix shall be glued to the sample table with conductive tape.
+The sample table shall be sealed with a self-sealing bag for easy transfer. The surface morphology of the samples in this experiment was
+observed by HITACHI S-4800 cold ﬁeld emission scanning electron
+microscope (SEM) produced by HITACHI group, Japan.
+2.5. Gaussian calculation
+The Gaussian03 software package was used for energy calculation
+of crown ether molecule and its complexes cations [26]. Before calculation, 3-21G was used for structural optimization, and 6-311G was
+used for energy calculation.
+3. Results and discussion
+3.1. Physical and chemical properties analysis of crown ether electrolyte
+solution
+Fig. 1 shows the Uv–visible absorption spectra of 1 M LiPF6-PC
+electrolyte and crown ether complex electrolyte. The electrolyte in
+the control group has an absorption peak at a wavelength of 240 nm
+in the ultraviolet region, corresponding to the π-π* transition of the
+C@O group on PC, and there is no absorption peak above 300 nm.
+When crown ether was added, the color of the electrolyte solution
+transformed into dark, indicating that the overall light absorption of
+the solution is increased. Two peaks appeared at λ1 = 382 nm and
+λ2 = 462 nm, which might derived from the absorption peaks of the
+electronic transition from the HOMO to Lowest Unoccupied Molecular
+Orbit (LUMO) for Li+ complex and Li+complex-PF-6 salt, which indicates that there is a coordination effect between crown ethers (15crown-5, 12-crown-4 ether) and lithium ions. The absorption peaks
+of 12-crown-4 ethers are obvious, while the peaks of 15-crown-5 ether
+is weak, indicating that 12-crown-4 ether has a stronger complexing
+effect on lithium ions, which is consistent with the literature [27,28].
+After adding 0.2 M 15-crown-5 or 12-crown-4 ether to the 1 M LiPF6PC electrolyte, the cyclic voltammetry curves are shown in Fig. 2. By
+comparing the current density between the blank electrolyte and the
+crown ethers electrolyte at the potential range of 0–3.3 V, it can be found
+that the characteristic peaks of the crown ethers electrolyte are basically
+unchanged compared with the blank group in the ﬁrst cycle. After
+
+2. Experiment
+2.1. Chemical reagents and raw materials
+Most of the chemical reagents including 15-crown-5, 12-crown-4
+ether and 1 M LiPF6-PC are purchased from Aladdin Biochemical Technology Co., LTD. The polyethylene (PE) separator is bought from
+Sinoma Science & Technology Co. Ltd., China. In the glove box (H2O < 0.1 ppm, O2 < 0.1 ppm, Mikrouna Co., Shanghai, China),
+0.4 ml, 0.8 ml, 1.2 ml, 2.0 ml 15-crown-5 (or 12-crown-4 ether) were
+added into 20 ml 1 M LiPF6-PC commercial secondary electrolyte in an
+high-purity argon atmosphere, respectively. In the aluminum reagent
+bottle, the solution was fully mixed for 24 h stirred by a magnetic agitator. Then, and the 15-crown-5 (or 12-crown-4 ethers) electrolyte
+with concentrations of 0.1 M, 0.2 M, 0.3 M and 0.5 M were obtained,
+respectively. The Uv–vis absorption spectrum of the electrolyte was
+measured by Shimadzu 3600 Uv–vis spectrophotometer.
+2.2. Electrodeposited technology
+Copper foil as the cathode (Φ12 mm, working electrode), lithium
+metal as the anode (Φ 16 mm, control electrode), and Ag/Ag+ as reference electrode (internal liquid: acetonitrile solution with 0.01 M
+AgNO3), the three-electrode system is constructed in a sealed electrolyte pool. The constant current electrodeposition is carried out by
+CHI 660C (Chenhua Co., Shanghai, China) in chronopotential method,
+with ﬁxed capacity of 1.0 mAh cm−2 in current density of
+2.0 mA cm−2. The Cyclic Linear Sweep Voltammetry is also tested
+by CHI 660C, with a potential range of 0–3.3 V (vs Li/Li+) and a scanning rate of 5 mV s−1.
+2.3. Battery assembly
+The standard 2032 type Li/Cu half-cell is assembled in the glove
+box full of Ar. From the positive shells to negative shells are Cu foil,
+electrolyte 35 μl, PE separator, electrolyte 35 μl, lithium foil, gasket
+and the shrapnel. LAND multi-channel battery testing system (Land
+Co., Wuhan, China) was used for battery testing, with copper foil as
+work electrode for lithium metal deposition/stripping (corresponding
+to a battery charge/discharge process). The current density is
+0.5 mA cm−2 and 1.0 mA cm−2 in 0.5 mAh cm−2 and 1.0 mAh
+cm−2 respectively with the voltage range of 0.5–1.0 V.
+
+Fig. 1. Uv–visible absorption spectra of lithium ions in the complex
+electrolyte of crown ethers.
+2
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+X. Huang et al.
+
+Fig. 2. Cyclic voltammetry curve of the electrolyte after adding crown ethers, (a) 15-crown-5 ethers, (b) 12-crown-4 ethers.
+
+6 cycles, the peak current decreases in the range of 2.75 V ~ 2.125 V and
+2.125 V ~ 1.375 V, while the current value increases slightly near 0 V.
+Crown ethers has no other special signal in this potential range, so it
+can be considered that 15-crown-5 and 12-crown-4 ethers have good
+electrochemical stability in solution and will not decompose before
+lithium metal precipitates out. We can also ﬁnd that, after 12-crown-4
+ether is added, the decomposition peak of the electrolyte around 0 V
+is greatly weakened, which indicates that the decomposition of the PC
+electrolyte is effectively suppressed.
+
+lithium dendrite stacked on top of nanometer lithium particles randomly. However, when 0.3 M 15-crown-5 ether is added, the same
+amount of lithium deposited is all neatly arranged in columns, the
+diameter of the lithium column is about 300 nm, and the thickness
+of the lithium layer is about 9 μm. The thickness difference between
+the two simples can be attributed to the fact that predominant growth
+of the dendrite layer in the control group inhibits the vertical growth
+of the nano-lithium particles.
+Fig. 5 shows the morphology of electro-deposited lithium metal after
+the addition of 12-crown-4 ether at different concentrations in
+2.0 mA cm−2, with a capacity of 1.0 mAh cm−2. When 12-crown-4 ether
+is added and the concentration of crown ether is 0.1 M, the lithium layer
+deposited is mostly ﬂat and uniform in the form of nano-column lithium
+with small amount of dendrite lithium still existed as shown in (Fig. 5 a
+and b). When the concentration of crown ether is increased to 0.2 M, the
+lithium layer shows the most ﬂattest morphology, in (Fig. 5 c and d). The
+20,000 times SEM image also shows that the diameter of the columnar
+lithium is about 400 nm, and the top of the lithium column is full and uniform. Compared with the same concentration of 15-crown-5 ether, 12crown-4 ether seems to have a stronger inhibition effect on dendrite
+growth. While the concentration continues to rise, the uniformity of
+the lithium layer decreases. When the concentration of 12-crown-4 ether
+is 0.5 M, lithium deposited shows irregular veins, and the top morphology of nanometer lithium column is broken. This may be caused by the
+strong complexation effect of 12-crown-4 ether on lithium ions. Therefore, the excessively high concentration of 12-crown-4 ether may not
+be conducive to the formation of uniform and dense nanometer lithium
+deposits.
+
+3.2. Morphology observation of lithium dendrites in crown ether electrolyte
+solution
+Fig. 3 shows the morphology comparison of lithium metal electrodeposited in different concentrations of 15-crown-5 ether electrolyte in 2.0 mA cm−2 with a capacity of 1.0 mAh cm−2. It can be
+seen that in the absence of crown ether as shown in (Fig. 3 a and b),
+the lithium deposited is dendrite. With the addition of crown ether,
+the growth of dendrite is gradually suppressed, and the range of
+lithium dendrite is narrowed. When 0.1 M crown ether is added, the
+area of lithium dendrites decreased, and the distribution was like a circular island. At a concentration of 0.2 M, most lithium is deposited
+uniformly except a small amount of dendrite existed. However, when
+0.3 M is added, no lithium dendrites appear under 200 times electron
+microscope (Fig. 3g), and lithium metal was observed to be uniformly
+arranged in a nano-sphere shape with a diameter of about 350 nm
+under 20,000 times electron microscope (Fig. 3h). When the concentration is further increased to 0.5 M, the diameter difference of particles increases and the surface of the lithium electrode is uneven.
+It can also be seen from the cross-sectional view of the lithium negative electrode in Fig. 4, the lithium electrodeposited in control group
+without crown ether added is divided into two layers: Lithium particles next to the current collector and the lithium layer with the thickness of about 1 μm are closely arranged. The outer layer is thicker
+
+3.3. The coulombic efﬁciency of lithium metal in crown ether electrolyte
+We assembled Li/Cu half-cells to study the effect of additives on the
+stability of lithium metal electrode. The CE is used to characterize the
+utilization rate of metallic lithium in a deposition/dissolution cycle.
+
+Fig. 3. SEM image of Li deposited with different concentrations of 15-crown-5, (a, b) without any additive; (c, d) 0.1 M; (e, f) 0.2 M; (g, h) 0.3 M; (i, j) 0.5 M in
+2 mA cm−2 with a capacity of 1 mAh cm−2 respectively.
+3
+
+X. Huang et al.
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+Fig. 4. The cross-sectional views of the lithium metal (a, b) without any additive; (c, d) 0.3 M of 15-crown-5 ethers in 2 mA cm−2 with a capacity of 1 mAh cm−2.
+
+Fig. 5. SEM image of Li deposited with different concentrations of 12-crown-4 ether (a, b) 0.1 M; (c, d) 0.2 M; (e, f) 0.3 M; (g, h) 0.5 M in 2 mA cm−2,
+1 mAh cm−2.
+
+Li/Cu half-cell is above 80%, which decays to 70.5% after 50 cycles.
+When 0.1 M 15-crown-5 ether is added, the CE of the ﬁrst few cycles
+is similar to the control group. After 50 cycles, the CE decreases to
+65.3%, and then rapidly decreases to 30%. As the concentration
+increased, the efﬁciency of the ﬁrst cycle at 0.2 M, 0.3 M and 0.5 M
+is 77.8%, 76.8% and 51.7%, respectively, and continues to decrease
+to a lower level.
+Fig. 7 shows the morphology of Li electrode after multiple constant
+current charging and discharging cycles. It can be found that there are
+a lot of dendrites in the control electrolyte, while the lithium accumulated is relatively dense after the 15-crown-5 ether added. We can also
+ﬁnd that there is an obvious passivation layer on the surface of the
+lithium metal electrode in the control group, covers the surface of
+the Li electrode and isolates the direct contact between the active
+lithium metal and the electrolyte, thus protecting the active lithium
+metal. However, the lithium metal of crown ethers electrolyte is
+directly exposed to the electrolyte, and the crown ether seems to inhibit the formation of passivation layer on the surface of lithium metal. It
+may explain why crown ethers solution can not improve the CE of
+
+The value is the ratio of the dissolution/deposition of lithium metal on
+the copper collector. Fig. 6 shows the cycle performance of half-cells in
+1 M LiPF6-PC system after adding 15-crown-5 ethers at different concentrations in 0.5 mA cm−2, 0.5 mAh cm−2 and 1.0 mA cm−2, 1.0
+mAh cm−2, respectively. Under the condition of 0.5 mA cm−2, the
+cycle efﬁciency of the control group is more than 85% in the ﬁrst
+few cycles, but only about 60% in 90th cycle. After that, it quickly
+decays and the efﬁciency fells below 40%. After the addition of
+0.1 M 15-crown-5 ether, the initial efﬁciency is also above 85%, which
+is similar to the CE of the control group. The overall downward trend
+is similar to the control group, and the CE is about 40% after 110
+cycles. Therefore a small amount of 15-crown-5 ether added has little
+effect on the efﬁciency of Li/Cu half-cells. As the concentration of 15crown-5 ether is higher, the CE of the ﬁrst few cycles of the half-cell
+continues to decline. At 0.2 M, the ﬁrst cycle’s efﬁciency is 83.4%,
+and then it drops to 78.6% at 0.3 M, and 72.3% at 0.5 M. After the
+addition of 0.2 M, 0.3 M and 0.5 M, the overall efﬁciency of the electrode decreases successively, and it all drops to about 30% after 60
+cycles. Under the condition of 1.0 mA cm−2, the initial efﬁciency of
+
+4
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+X. Huang et al.
+
+Fig. 6. Coulombic efﬁciency of Li/Cu half cells with added different concentrations of 15-crown-5 ethers (a) 0.5 mA cm−2, 0.5 mAh cm−2; (b) 1.0 mA cm−2, 1.0
+mAh cm−2.
+
+Fig. 7. Morphology of Li electrode after multiple constant current charging and discharging cycles (a, b): without any additive; (c, d): 15-crown-5 ether.
+
+lower the CE. For example, under the current density condition of
+0.5 mA cm−2, when the concentration of crown ethers rises from
+0 M, 0.1 M, 0.2 M, 0.3 M and 0.5 M successively, the CE of the ﬁrst
+cycle decreases from 88.1%, 72.7%, 68.6%, 63.6% and 52.8% successively. The higher the concentration is, the faster the attenuation rate
+
+lithium metal electrodes. Similarly, when different concentrations of
+12-crown-4 ether are added to the electrolyte, the efﬁciency curve is
+shown in Fig. 8. It can be found that the addition of 12-crown-4 ether
+signiﬁcantly reduces the CE and the life of the half battery, and the
+higher the concentration of 12-crown-4 ether may bring about the
+
+Fig. 8. Coulombic efﬁciency of Li/Cu half cells with different concentrations of 12-crown-4 ethers, (a) 0.5 mA cm−2, 0.5 mAh cm2; (b) 1.0 mA cm−2,
+1.0 mAh cm2.
+5
+
+X. Huang et al.
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+will be. At 1.0 mA cm−2, when the concentration of 12-crown-4 ether
+increase successively from 0 M, 0.1 M, 0.2 M, 0.3 M, 0.5 M, the CE of
+the ﬁrst cycle also decrease successively from 81.6%, 74.4%, 59.8%,
+57.1%, 48.4%. The increase of 12-crown-4 ether concentration accelerates the instability of lithium electrode.
+
+3.4. Electrochemical behavior of lithium metal in crown ethers electrolyte
+solution
+Fig. 9a and 9b are the voltage curves of the lithium deposition process in the electrolyte without crown ether and 0.3 M 15-crown-5
+ether, respectively. In the control group, lithium ions tend to exist in
+the free form in the electrolyte. Due to the microscopic defects on
+the electrode surface and the presence of tiny synapses, more negative
+charges tend to accumulate in the hot spot. The hot spot area has
+greater electric ﬁeld strength and can attract more lithium ions in
+the electrolyte. Therefore, the lithium metal is deposited faster here,
+forming synapses. And the positive feedback effect intensiﬁes the
+growth of lithium synapses, thereby the growth of lithium dendrites.
+After adding a certain amount of crown ether to the electrolyte, due
+to the strong coordination effect of crown ether, lithium ions tend to
+be existed in the form of crown ether-Li+ complex. On the basis of
+the original three steps including mass transfer, electrochemical reaction and electrocrystallization, the complex dissociation is also added
+to the cathodic process, which further elevates the charging voltage
+[29,30]. On the other hand, this process will also slow down the
+growth rate of lithium at the tip of the synapse, thereby inhibit the
+growth of lithium dendrites and level the lithium metal anode [31].
+Fig. 10 is the molecular orbital energy levels of 15-crown-5 ether
+and lithium-ion complexes with 15-crown-5 ether calculated by the
+Gaussian software package (12-crown-4 ether results are similar).
+The inset pictures present the electron cloud for the HOMO and LUMO
+levels of the compounds. 15-crown-5 ether had a higher HOMO (v.s S.
+H.E) energy and a lower LUMO (v.s S.H.E) energy before the complex
+was formed, indicating that the compound was easy to be oxidized but
+difﬁcult to be reduced. When the complex was formed, its LUMO
+decreased signiﬁcantly, indicating that the compound could easily
+obtain electrons to form electronically neutral complex molecular radicals and even negatively charged complex complex ions. When the
+negative electrode is charged in the electrolyte containing the complex
+positive ion, these reduced species are no longer attracted by the acceleration of the electric ﬁeld force and thus unable to be discharged near
+the negative electrode. Instead, the electrically neutral free radicals
+will diffuse freely into the solution. The negatively charged negative
+ions accelerate away from the surface of the negative electrode, diffusing to the counter electrode and discharging at the positive electrode,
+which results in a decrease in CE. This diffusion is not only related to
+the concentration of crown ether complex ions, that is, the larger the
+concentration is, the faster the decline will be, but also related to
+
+Fig. 10. Molecular orbital level diagram of 15-crown-5 (left) and 15-crown-5
+lithium ion complexes (right).
+
+the charging voltage. And a higher overpotential will relatively
+increase the potential of the positive electrode and accelerate the complex free radicals or negative ions. Its diffusion in the solution and the
+discharge on counter electrode also reduce the CE.
+
+4. Conclusion
+In this paper, the inﬂuence of two crown ether including 15-crown5 and 12-crown-4 ether as complexing agents on the morphology of
+lithium metal electrodeposition is investigated, and the electrodeposition behavior of Li metal after the addition of crown ethers are studied.
+A certain amount of 15-crown-5 or 12-crown-4 ether added to 1 M
+LiPF6-PC electrolyte can effectively level the lithium layer deposited
+and inhibit the growth of lithium dendrite, thus obtaining a uniform
+and dense nanometer lithium deposit layer at 2.0 mA cm−2. The optimal concentration of 15-crown-5 complexing agent is 0.3 M, and the
+optimal concentration of 12-crown-4 complexing agent is about
+0.2 M. However, the deposition potential of lithium metal is increased
+when crown ether was added, and the dissolution/ deposition CE of
+Li/Cu half battery lithium is also decreased. We consider that crown
+ether seem to inhibit the formation of passivation layer on the surface
+of lithium metal, resulting the lower the CE. On the basis of the
+original three steps of Li cathodic process including mass transfer,
+
+Fig. 9. The voltage–time proﬁles of Li/Cu half cells, (a) without any additive; (b) 0.3 M of 15-crown-5 ether.
+6
+
+Journal of Electroanalytical Chemistry 887 (2021) 115156
+
+X. Huang et al.
+
+ion and lithium metal batteries, J. Electrochem. Soc. 162 (2015) A1094–A1101,
+https://doi.org/10.1149/2.0011507jes.
+[13] Q.C. Liu, J.J. Xu, S. Yuan, et al, Artiﬁcial protection ﬁlm on lithium metal anode
+toward long-cycle-life lithium-oxygen batteries, Adv. Mater. 27 (2015)
+5241–12547, https://doi.org/10.1002/adma.201501490.
+[14] D. Aurbach, E. Pollak, R. Elazari, et al, On the surface chemical aspects of very high
+energy density, rechargeable Li-sulfur batteries, J. Electrochem. Soc. 156 (2009)
+A694–A702, https://doi.org/10.1149/1.3148721.
+[15] F. Ding, W. Xu, G.L. Graff, et al, Dendrite-free lithium deposition via self-healing
+electrostatic shield mechanism, J. Am. Chem. Soc. 135 (2013) 4450–4456,
+https://doi.org/10.1021/ja312241y.
+[16] P.C. Shi, L.C. Zhang, H.F. Xiang, et al, Lithium diﬂuorophosphate as a dendritesuppressing additive for lithium metal batteries, ACS Appl. Mater. Interfaces 10
+(2018) 22201–22209, https://doi.org/10.1021/acsami.8b05185.
+[17] J.F. Qian, W. Xu, P. Bhattacharya, et al, Dendrite-free Li deposition using traceamounts of water as an electrolyte additive, Nano Energy 15 (2015) 135–144,
+https://doi.org/10.1016/j.nanoen.2015.04.009.
+[18] X.W. Ou, G. Zhang, S.Q. Zhang, et al, Simultaneously pre-alloying and artiﬁcial
+solid electrolyte interface towards highly stable aluminum anode for highperformance Li hybrid capacitor, Energy Storage Mater. 28 (2020) 357–363,
+https://doi.org/10.1016/j.ensm.2020.03.021.
+[19] J.Y. Zhang, X.H. Yao, R.K. Misra, et al, Progress in electrolytes for beyond-lithiumion batteries, J. Mater. Sci. Technol. 44 (2020) 237, https://doi.org/10.1016/j.
+jmst.2020.01.017.
+[20] F.L. Qiu, X. Li, H. Deng, et al, A concentrated ternary-salts electrolyte for high
+reversible Li metal battery with slight excess Li, Adv. Energy Mater. 9 (2019)
+1803372–1803379, https://doi.org/10.1002/aenm.201803372.
+[21] W. Chen, T. Y. Lei and C. Y. Wu, et al., Designing safe electrolyte systems for a
+high-stability lithium-sulfur battery. Adv. Energy. Mater., 2018, 8(10):1702348.11702348.24. http://doi.org/ 10.1002/aenm.201702348.
+[22] D. Gyabeng, P.A. Martin, U. Pal, et al, Investigating Intermolecular Interactions in
+a DME-Based Hybrid Ionic Liquid Electrolyte by HOESY NMR, J. Front. Chem. 7
+(4) (2019), https://doi.org/10.3389/fchem.2019.00004.
+[23] X.G. Li, T. Gao, F.D. Han, et al, Reducing Mg anode overpotential via ion
+conductive surface layer formation by iodine additive, Adv. Energy Mater. 8
+(2018) 1701728, https://doi.org/10.1002/aenm.201701728.
+[24] J.D. Xie, W.J. Liu, C. Li, et al, Superior coulombic efﬁciency of lithium anodes for
+rechargeable batteries utilizing high-concentration ether electrolytes, Electrochim.
+Acta 319 (2019) 625e633, https://doi.org/10.1016/j.electacta.2019.07.020.
+[25] C. Li, Q. Lan, Y.F. Yang, et al, Flexible artiﬁcial solid electrolyte interphase formed
+by 1,3-Dioxolane oxidation and polymerization for metallic lithium anodes, ACS
+Appl. Mater. Interfaces. 11 (2019) 2479–2489, https://doi.org/10.1021/
+acsami.8b16080.
+[26] M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman,
+V.G. Zakrzewski, J.A. Montgomery, R.E. Stratmann, J.C. Burant, S. Dapprich, J.M.
+Millam, A.D. Daniels, K.N. Kudin, M.C. Strain, O. Farkas, J. Tomasi, V. Barone, M.
+Cossi, R. Cammi, B. Mennucci, C. Pomelli, C. Adamo, S. Clifford, J. Ochterski, G.A.
+Petersson, P.Y. Ayala, Q. Cui, K. Morokuma, D.K. Malick, A.D. Rabuck, K.
+Raghavachari, J.B. Foresman, J. Cioslowski, J.V. Ortiz, A.G. Baboul, B.B. Stefanov,
+G. Liu, A. Liashenko, P. Piskorz, I. Komaromi, R. Gomperts, R.L. Martin, D.J. Fox,
+T. Keith, M.A. Al-Laham, C.Y. Peng, A. Nanayakkara, C. Gonzalez, M.
+Challacombe, P.M.W. Gill, B. Johnson, W. Chen, M.W. Wong, J.L. Andres, C.
+Gonzalez, M. Head-Gordon, E.S. Replogle, J.A. Pople, Gaussian 98, revision A.9
+and A11.3, Gaussian Inc: Pittsburgh, PA (2004).
+[27] M. Kazemabad, A. Verliefde, E.R. Cornelissen, et al, Crown ether containing
+polyelectrolyte multilayer membranes for lithium recovery, J. Membrane Sci. 595
+(2020), https://doi.org/10.1016/j.memsci.2019.117432 117432.
+[28] J. Mindemark, M.J. Lacey, T. Bowden, et al, Beyond PEO—Alternative host
+materials for Li+-conducting solid polymer electrolytes, Prog. Polym. Sci. 81
+(2018) 114–143, https://doi.org/10.1016/j.progpolymsci.2017.12.004.
+[29] Y.B. Yang, Y.X. Liu, Z. Song, et al, Li+-Permeable Film on Lithium Anode for
+Lithium Sulfur Battery, ACS Appl. Mater. Interfaces 9 (44) (2017) 38950–38958,
+https://doi.org/10.1021/acsami.7b10306.
+[30] H. Fang, S. Taeseup, et al, Application of functionalized ether in lithium ion
+batteries, RSC Adv. 7 (85) (2017) 54203–54212, https://doi.org/10.1039/
+c7ra11023e.
+[31] Z. Liu, G. Z. Li and T. Cui, et al., Tuning the electronic environment of zinc ions
+with a ligand for dendrite-free zinc deposition in an ionic liquid, J. Phys. Chem.
+Chem. Phys., 2017:10. 1039.C7CP05345B. http://doi.org/ 10.1039/c7cp05345b.
+
+electrochemical reaction and electrocrystallization, the complex dissociation is also added, which further elevates the charging voltage. On
+the other hand, according to the Gaussian calculation of the complex,
+we found that the LUMO of the complex would gain electrons in cathode, thus may reducing the CE of the battery.
+CRediT authorship contribution statement
+Xianli Huang: Project administration. Dongmei Zhuang: Investigation, Methodology, Validation, Writing - review & editing. Zhihui
+Chen: Data curation. Hao Gong: Supervision. Tao Wang: Validation,
+Supervision, Resources. Jianping He: Supervision, Resources, Funding acquisition. Xiaogang Zhang: Supervision.
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial
+interests or personal relationships that could have appeared to inﬂuence the work reported in this paper.
+Acknowledgements
+Financial support were from the Fundamental Research Funds for
+the Central Universities, No. NE2018104.
+References
+[1] M.D. Tikekar, S. Choudhury, Z.Y. Tu, et al, Design principles for electrolytes and
+interfaces for stable lithium-metal batteries, Nat. Energy. 1 (2016) 16114–16120,
+https://doi.org/10.1038/nenergy.2016.114.
+[2] Y.M. Sun, N. Liu, Y. Cui, et al, Promises and challenges of nanomaterials for
+lithium-based rechargeable batteries, Nat. Energy. 1 (2016) 16071–16082,
+https://doi.org/10.1038/nenergy.2016.71.
+[3] R. Zhang, X.B. Cheng, C.Z. Zhao, et al, Conductive nanostructured scaffolds render
+low local current density to inhibit lithium dendrite growth, Adv. Mater. 28 (2016)
+2155–2162, https://doi.org/10.1002/adma.201504117.
+[4] H. Gong, T. Wang, H.R. Xue, et al, Photo-enhanced lithium oxygen batteries with
+defective titanium oxide as both photo-anode and air electrode, Energy Storage
+Mater. 13 (2018) 49–56, https://doi.org/10.1016/j.ensm.2017.12.025.
+[5] P.B. Zhai, T.S. Wang, W.W. Yang, et al, Uniform lithium deposition assisted by
+single-atom doping toward high-performance lithium metal anodes, Adv. Energy
+Mater. 9 (2019) 1804019–1804026, https://doi.org/10.1002/aenm.201804019.
+[6] W. Xu, J. Wang, F. Ding, et al, Lithium metal anodes for rechargeable batteries,
+Energy. Environ. Sci. 7 (2014) 513–537, https://doi.org/10.1039/c3ee40795k.
+[7] Z.L. Hu, S. Zhang, S.M. Dong, et al, Poly (ethyl α-cyanoacrylate)-based artiﬁcial
+solid electrolyte interphase layer for enhanced interface stability of Li metal
+anodes, Chem. Mater. 29 (2017) 4682–4689, https://doi.org/10.1021/acs.
+chemmater.7b00091.
+[8] D.M. Zhuang, X.L. Huang, Z.H. Chen, et al, The synergistic effect of Cu2O and boric
+acid forming solid electrolyte interphase layer to restrain the dendritic growth, J.
+Power Sources. 458 (2020), https://doi.org/10.1016/j.jpowsour.2020.228055
+228055.
+[9] R. Zhang, X.R. Chen, X. Chen, et al, Lithiophilic sites in doped graphene guide
+uniform lithium nucleation for dendrite-free lithium metal anodes, Angew. Chem.
+Int. Ed. 129 (27) (2017) 7764–7768, https://doi.org/10.1002/anie.201702099.
+[10] S.H. Wang, Y.X. Yin, T.T. Zuo, et al, Stable li metal anodes via regulating lithium
+plating/stripping in vertically aligned microchannels, Adv. Mater. 29 (40) (2017)
+1703729.1–1703729.8, https://doi.org/10.1002/adma.201703729.
+[11] X.Q. Zhang, X.B. Cheng, X. Chen, et al, Fluoroethylene carbonate additives to
+render uniform Li deposits in lithium metal batteries, Adv. Funct. Mater. 27 (2017)
+1605989–1605996, https://doi.org/10.1002/adfm.201605989.
+[12] J. Heine, P. Hilbig, X. Qi, et al, Fluoroethylene carbonate as electrolyte additive in
+tetraethylene glycol dimethyl ether based electrolytes for application in lithium
+
+7
+
+

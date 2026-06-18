@@ -1,0 +1,699 @@
+Full Paper
+www.afm-journal.de
+
+Electrolytes Enriched by Crown Ethers for Lithium
+Metal Batteries
+Huaping Wang, Jian He, Jiandong Liu, Shihan Qi, Mingguang Wu, Jie Wen,
+Yanan Chen,* Yuezhan Feng, and Jianmin Ma*
+This manuscript is written to be in Honor of Nobel Laureate John B. Goodenough
+for electric vehicles due to the ultrahigh
+theoretical capacity (3860 mAh g−1) of Li.[1–3]
+However, the commercial applications of
+LMBs have been seriously hindered due to
+their poor cycle life and safety issues caused
+by a combination of factors, that is, large
+volume changes, low coulomb efficiency,
+dendritic Li formation, the instability of the
+solid electrolyte interphase (SEI), etc.[4,5]
+During the repeated discharge–charge
+processes, the growth of Li dendrites can
+pierce the separator, which is the main
+cause of the internal short circuiting,
+leading to decreased cycle life and even
+catastrophic cell explosion.[6,7] In addition,
+fresh Li dendrites will further promote the
+side reactions between Li metal and electrolytes, causing the continuous formation of
+dead Li. Such the consumption leads to the
+large polarization, fast capacity decay and
+low Coulombic efficiency (CE).[8,9] Therefore, it is still facing great challenges to
+develop safe and efficient LMBs.
+Up to now, various strategies have been explored to address
+these issues such as optimizing electrolyte composition,[10,11]
+employing solid-state electrolytes,[12,13] constructing an artificial
+SEI,[14,15] designing 3D materials[16–18] and Li-based alloy.[19,20]
+Among the above strategies, SEI plays a significant role in
+determining the performance of LMBs due to the reason
+that the stable SEI can reduce the side reaction and repress
+the formation of Li dendrites.[21] In order to obtain stable and
+compact SEI, modification of electrolytes with additives has
+attracted numerous research interests.[22–25] It is usually considered that the general role of additives is to participate in the
+formation of stable SEI film.[26] However, in fact, the dissociation degree of salts, the strength of solvation and the stability
+of solvents dictate the nature of the resulting SEI.[27] In addition, some researches proposed a novel view of Li protection
+strategy, which showed that the additive played a coordinator
+role in electrolyte systems.[28–31] For example, fluoroethylene
+carbonate (FEC) as co-solvent could change the composition
+of the solvation sheath, which was beneficial to forming uniform SEI and dendrite-free Li anode.[32] However, it is noted
+that the performance of Li-Cu half-cell is still not satisfactory.
+Hence, developing high-efficiency electrolyte additives is still
+urgently desirable for the safe applications of LMBs. Additionally, specific Li+ clusters with additives can assemble around the
+
+Lithium (Li) metal battery is considered the most promising next-generation
+battery due to its low potential and high theoretical capacity. However, Li dendrite growth causes serious safety problems. Herein, the 15-Crown-5 (15-C-5)
+is reported as an electrolyte additive based on solvation shell regulation. The
+strong complex effect between Li+ ion and 15-C-5 can reduce the concentration of Li ions on the electrode surface, thus changing the nucleation, and
+repressing the growth of Li dendrites in the plating process. Significantly,
+the strong coordination of Li+/15-C-5 would be able to make them aggregate around the Li crystal surface, which could form a protective layer and
+favor the formation of a smooth and dense solid electrolyte interphase with
+high toughness and Li+ ion conductivity. Therefore, the electrolyte system
+with 2.0 wt% 15-C-5 achieves excellent electrochemical performance with
+170 cycles at 1.0 mA cm−2 with capacity of 0.5 mA h cm−2 in symmetric Li|Li
+cells. The obviously enhanced cycle and rate performance are also achieved
+in Li|LiNi0.6Co0.2Mn0.2O2 (NCM622) full cells. The 15-C-5 demonstrates to be
+a promising additive for the electrolytes toward safe and efficient Li metal
+batteries.
+
+1. Introduction
+Lithium (Li) metal batteries (LMBs) have been recently considered as one of the most promising high-energy-density batteries
+Dr. H. Wang, J. He, Dr. J. Liu, Dr. S. Qi, Dr. M. Wu, Prof. J. Ma
+School of Physics and Electronics
+Hunan University
+Changsha 410082, China
+E-mail: nanoelechem@hnu.edu.cn
+Dr. J. Wen, Prof. Y. Chen
+School of Materials Science and Engineering
+Key Laboratory of Advanced Ceramics and Machining Technology
+of Ministry of Education
+Tianjin Key Laboratory of Composite and Functional Materials
+Tianjin University
+Tianjin 300072, China
+E-mail: yananchen@tju.edu.cn
+Dr. Y. Feng
+Key Laboratory of Materials Processing and Mold
+Ministry of Education
+Zhengzhou University
+Zhengzhou 450002, China
+The ORCID identification number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/adfm.202002578.
+
+DOI: 10.1002/adfm.202002578
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+2002578 (1 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.afm-journal.de
+
+nucleation points of Li dendrites to form a low Li+ concentration region during the Li plating process, and such Li+ clusters
+also drive other kinds of Li+ clusters to adjacent regions, in
+favor of resulting in a smooth Li anode without dendrites.[33,34]
+In this work, we reported that crown ether was used as the
+effective electrolyte additive for Li metal anode protection, and
+verified that the complexing action between Li ions and crown
+ether made LMBs to exhibit a long-term cycle life. In optimal
+conditions, Li metal anode in the electrolyte with 2.0 wt%
+15-Crown-5 (15-C-5) displayed the best cycle life with 170 plating/
+stripping cycles at the current density of 1 mA cm−2 with capacity
+of 0.5 mAh cm−2. In addition, the obviously enhanced cycle and
+rate performance were also achieved in Li|LiNi0.6Co0.2Mn0.2O2
+(NCM622) full cells with the 2.0 wt% 15-C-5 additive. Theoretical calculation shows that the strong coordination of Li+/15-C-5
+and higher LUMO level of 15-C-5 were help to form SEI with
+high toughness and Li+ ion conductivity.
+
+2. Results and Discussion
+It is generally accepted that the uneven nucleation leads to
+the dendrite growth in conventional electrolytes. Meanwhile, the
+charges gathered at the tip of dendrite will further promote the
+growth of Li dendrites, leading to the rapid damage of Li metal
+battery (Figure 1). In contrast, when crown ether is introduced
+into electrolyte, the Li+/crown ether complexes can reduce the
+surface concentration of Li ions to form large primary crystal
+nucleus. At the plating progress, the Li+/crown ether complexes
+not only reduce the aggregation of Li ions on the dendrite
+surface, but also can isolate carbonate molecules, which will
+form uniform and dense SEI films to repress Li dendrites and
+enhance the cycling performance of Li battery.
+Li plating process with the crown ether additives was
+illustrated by scanning electron microscopy (SEM). Li
+was plated at a current density of 1.0 mA cm−2 with a fixed
+capacity of 0.5 mAh cm−2. Without additives, the large Li
+nucleation deposits were observed on the Li foil surface at
+
+5 cycles (Figure 2a,b). After a further 50 cycles, the mossy
+and foamy Li deposits covered the whole surface of Li metal
+foil (Figure S1a,b, Supporting Information). By contrast, with
+the addition of 2.0 wt% 12-Crown-4 (12-C-4) (Figure 2c,d) and
+2.0 wt% 15-C-5 (Figure 2e,f), the smooth Li deposition layer
+could be observed after 5 cycles plating/stripping, respectively,
+showing that the additives helped the homogeneous deposition of Li metal. However, after 50 cycles plating/stripping, the
+SEM image with 12-C-4 additive looked rougher (Figure S1c,d,
+Supporting Information), indicating that the effect of surface
+control of Li plating was poorer than 15-C-5 (Figure S1e,f,
+Supporting Information). In addition, with the addition of
+18-Crown-6 (18-C-6), the deposit layer was similar to the
+blank sample, which illustrated the 18-C-8 had little effect to
+suppress Li dendrite growth (Figure 2g,h; Figure S1g,h, Supporting Information).
+In order to research the dynamic Li deposition process, in
+situ optical microscope observation was carried out with different electrolytes. As shown in Figure 2i, without any additive,
+uneven dendritic Li was observed after 2 min at a plating current of 5 mA cm2. Moreover, high dendrite and mossy Li deposition layer formed after plating for 12 min, which would result
+in the continuous consume of metallic Li, and further lead to
+the drop of the CE. In contrast, a more uniform Li deposition
+was achieved with the 15-C-5 contained electrolyte with plating
+2 min (Figure 2j). After 12 min, the thickness of Li deposition
+layer was much smaller than that of blank electrolyte system.
+Meanwhile, the in situ observation of 12-C-4 contained electrolyte
+was also found to reduce the growth of Li dendrites (Figure S2a,
+Supporting Information). The large morphological change
+indicates that the 18-C-6 has almost no effect to preserve Li dendrites (Figure S2b, Supporting Information). The morphology
+evolution was consistent with the SEM results.
+In order to evaluate the long-term cycling stability of the
+crown ether-contained electrolytes, symmetrical Li|Li cells were
+assembled. As shown in Figure 3a, the symmetric Li|Li cell with
+blank electrolyte was only stable for 100 cycles at 1.0 mA cm−2
+with a capacity of 0.5 mAh cm−2. Over 100 cycles, significant
+
+Figure 1. Schematic of the effect of crown ether additives on the decomposition process of solvents.
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+2002578 (2 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Figure 2. SEM images of Li plated a,b) without additive and with c,d) 2.0 wt% 12-C-4, e,f) 2.0 wt% 15-C-5, g,h) 2.0 wt% 18-C-6 additives after 5 cycles
+at a current density of 1.0 mA cm−2 and a capacity of 0.5 mAh cm−2 in symmetric cells. In situ optical microscopy observations of the Li plating with
+i) blank and j) 2.0 wt% 15-C-5 contained electrolyte.
+
+fluctuations and abrupt drop-off in plating voltage can be
+observed due to the rapid formation of Li dendrites. By contrast, with 15-C-5 additive, the cycle stability of symmetric cells
+was significantly improved, the plating/stripping voltage were
+stable in the first 170 cycles, showing that the 15-C-5 additive
+could effectively repress the growth of Li dendrites. Meanwhile,
+the performance of electrolyte systems with 12-C-4 and 18-C-6
+additive was also investigated. With the same mass percentage
+of 2.0 wt%, 12-C-4 additive only showed the slight improvement for long-term stability of Li|Li cells, whereas 18-C-6 had
+no effect (Figure 3b). The effect of additive’s amount on the
+long-term performance was further investigated for Li|Li cells.
+As can been seen in Figure 3c, the electrolyte with 2.0 wt%
+15-C-5 exhibited the best performance, which shows a stable
+long-term performance with 170 cycles, much better than those
+of 1.0 wt% (100 cycles) and 4.0 wt% (130 cycles). To demonstrate
+the excellent performance of 15-C-5 additive, we also measured
+the voltage-time curve at a high current density of 2 mA cm−2.
+The electrolyte with 15-C-5 still exhibited best stability with
+100 cycles (Figure 3d). In order to further evaluate the efficacy
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+of different additives, we measured the electrochemical impedance spectroscopy (EIS) of Li|Li cells with different electrolytes
+after 150 cycles. As shown in Figure 3e, the impedance of the
+battery with 15-C-5 additive was markedly smaller than 12-C-4
+and 18-C-6 additives, indicating that 15-C-5 can be more effectively resist the side reaction between electrolyte and Li metal.
+The advantages of 15-C-5 additive was further demonstrated
+in Li|NCM622 full cells with commercial NCM622 as the
+cathode and Li foil as the anode. Figure S3a, Supporting Information, shows the charge–discharge curves of Li|NCM622 full
+cells with blank electrolyte, the full cell displayed an initial
+discharging specific capacity of 164.1 mAh g−1. Within three
+cycles, both of the specific capacities and voltage polarization
+were increased a little. Compared to the blank electrolyte, the
+full cell with 15-C-5 additive showed the stable electrochemical performance from second cycle (Figure S3b, Supporting
+Information). As presented in Figure 3f, the specific capacity
+of the full cell with 15-C-5 contained electrolyte remained at
+high level of 147 mAh g−1 after 200 cycles, whereas the full
+cell without any additive showed a rapid attenuation within
+
+2002578 (3 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Figure 3. Electrochemical behavior of a) symmetric cell cycling in the blank electrolyte and 15-C-5 contained electrolyte, b) symmetric cell cycling in the
+12-C-4 and 18-C-6 contained electrolytes. c) Symmetric cell cycling of the 1.0 wt%, 2.0 wt%, and 4.0 wt% 15-C-5 contained electrolyte. d) Electrochemical
+behavior of symmetric cell with 2.0 wt% 15-C-5 contained electrolyte at different current densities. e) EIS spectra of all electrolytes after 150 cycles with
+a current density of 1 mA cm−2 and a capacity of 0.5 mAh cm−2. f) Cycling performances and g) rate performances of Li|NCM622 full cells in blank
+electrolyte and the electrolyte with 2.0 wt% 15-C-5 additive.
+
+50 cycles. Moreover, the existence of 15-C-5 made the full cell to
+possess better rate performance compared to the cell without
+additive (Figure 3g). The specific capacity of the full cell
+with 15-C-5 additive (174.1, 163.6, 154.5, 142.9, 123.1 mAh g−1)
+at the current densities of 0.2, 0.5, 1.0, 2.0, and 5.0 C were
+higher than that of full cell without any additive (177.5, 164.3,
+153.9, 138.4, 102.7 mAh g−1).
+Adv. Funct. Mater. 2021, 31, 2002578
+
+The cryo-electron microscopy (cryo-EM) was used to characterize the detail of Li dendrite growth. Figure 4 showed the
+cryo-EM images of Li dendrites formed after the first electrochemical deposition. In the blank electrolyte system, the surface of the Li foil was covered by the aggregated Li nuclei with
+diameters of 180 nm (Figure 4a), showing the Li metal tended
+to grow along with the axial direction to form spindly dendrites,
+
+2002578 (4 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Figure 4. Cryo-TEM of Li metal dendrites of a–c) blank electrolyte and d–f) 2.0 wt% 15-C-5 contained electrolyte (plating condition: 0.5 mA cm−2, 0.5 h).
+
+which easily broke up, and then formed dead Li or pierced the
+separator (Figure 4b). However, with the 15-C-5 additive, larger
+Li crystals with diameters of 500 nm were achieved (Figure 4d,e)
+It is noted that the large dendrites are beneficial to improve the
+long-term performance of Li battery. As a fundamental understanding, the SEI between the electrolyte and Li metal is one of
+important factors to repress Li dendrite growth. The uniform
+and dense SEI layer is more beneficial to repress the growth
+of Li dendrite.[35] As shown in Figure 4c, the SEI films are full
+of bumps in the blank electrolyte system, which would lead to
+the formation of new Li dendrites. By contrast, the smooth and
+dense SEI layers were observed in the 15-C-5 contained electrolyte (Figure 4f). Therefore, the Li dendrite growth was effectively repressed.
+To determine the composition of different SEI films, X-ray
+photoelectron spectroscopy (XPS) was carried out. The survey
+spectrum (Figure S4, Supporting Information) shows that the
+SEI main contains C, O, F, and Li. The compositions of the SEI
+layer were further probed by the XPS depth profiling of C 1s,
+O 1s and Li 1s spectra after regular Ar sputtered the surface.
+Figure S5, Supporting Information, shows the O 1s spectra,
+where the peaks at 528.2, 531.5, and 532.9 eV correspond
+to the LiO, LiCO3, and ROCO2Li, respectively. As shown
+in Figure 5a–d, from initial surface to the Li after 4 min Ar
+sputtering, the C 1s spectra of all samples are attributed to
+C–C bonding at 284.6 eV, C–O bonding at 286.6 eV, ROCO2−1
+at 289.1 eV, and Li2CO32− at 290.2 eV, which shows that the
+organic and inorganic components are mixed together in SEI
+film. This is the typical SEI structure predicted by Peled et al.[36]
+Meanwhile, the proportion of ROCO2−1 and Li2CO32− peaks in
+the 15-C-5 contained electrolyte system were obviously lower
+than that of blank electrolyte system (Figure S6a, Supporting
+Information), which indicates that the 15-C-5 could be tightly
+contacted with the surface of SEI film to isolate carbonates.
+However, F ion was not affected so that it might improve the
+Adv. Funct. Mater. 2021, 31, 2002578
+
+proportion of LiF in SEI films. Figure 5e,h show the Li 1s fitting
+analysis spectra, just sputtering for 2 min, the characteristic
+peaks of Li metal at 54.5 eV, Li2CO3 at 55.5 eV, and LiF at
+56.5 eV were major peaks with the blank and 18-C-6 contained
+electrolyte systems (Figure 5e,h), showing the Li metal is inset
+in the SEI films. However, in the 12-C-4 and 15-C-5 contained
+electrolyte systems (Figure 5f,g), in the initial and after 2 min
+of sputtering, only the characteristic peaks of Li2CO3 and LiF
+were observed. Only after 4 min sputtering, the peak of Li metal
+started to appear. LiF is considered to be most effectively components for performance enhancement of Li metal battery.[37,38]
+Compared to other electrolyte systems, LiF is the largest component of Li salt in the SEI films with 15-C-5 contained electrolyte system (Figure S6b, Supporting Information). From these
+characteristics, it can be inferred that the 15-C-5 additive was
+not only beneficial to form smooth and dense SEI films, but
+also improve the content of LiF in SEI films, which are the
+major factor to improve long-term performance of LMBs.
+To probe the effect of crown ether on Li deposition process, the orbital energies (highest-occupied, HOMO; lowestunoccupied, LUMO) and binding energy were analyzed based
+on density functional theory (DFT) and the Vienna Ab initio
+Simulation Package (VASP). On the basis of optimized groundstate structure, DFT calculations were used to decide the excitation energy of all solvent and additive molecules, the LUMO
+levels reflect the chemical activity of all molecule. As shown in
+Figure 6a, the LUMO levels of ethyl carbonate (EC), dimethyl
+carbonate (DMC), 12-C-4, 15-C-5, and 18-C-6 are −0.38, −0.66,
+−0.29, −0.26, and −0.36 eV, respectively. The LUMO level of
+crown ethers is higher than that of EC and DMC, which indicates that crown ethers are difficult to be reduced on the Li foil
+surface and participate in the SEI compared to EC and DMC
+in standard condition. The 15-C-5 and its concentration were
+determined by 1H nuclear magnetic resonance (NMR) spectrum. The standard DMC solution with 1.0 wt%, 2.0 wt%, 5.0
+
+2002578 (5 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Figure 5. XPS spectra of a–d) C 1s and e–h) Li 1s of Li|Li cells after 10 cycle test with a,e) blank, b,f) 2.0 wt% 12-C-4, c,g) 2.0 wt% 15-C-5, and d,h) 2.0
+wt% 18-C-6 contained electrolyte.
+
+Figure 6. a) Theoretial calculation of highest occupied-lowest unoccupied Mo (HOMO-LUMO) energy of EC, DMC, 12-C-4, 15-C-5, and 18-C-6. b) 1H
+NMR spectroscopy of eletrolyte before and after 3 cycle test (a: DMC, b: EC+DMC, c: 15-C-5+DMC, d: 2.0 wt% 15-C-5 electrolyte before test, e: 2.0 wt%
+15-C-5 electrolyte after test). The cumulative coordination number n(r) of Li+ in c) blank, d) with 12-C-4 additive, e) with 15-C-5 additive, and f) with
+18-C-6 additive electrolyte system.
+Adv. Funct. Mater. 2021, 31, 2002578
+
+2002578 (6 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Figure 7. Charge density simulation of coordination of a) Li+/12-C-4, b) Li+/15-C-5, and c) Li+/18-C-6. d) The calculated binding energy and e) the
+chemical shift of Li+/12-C-4, Li+/15-C-5, and Li+/18-C-6 complex.
+
+wt%, and 10.0 wt% 15-C-5 was checked and used as the reference curve (Figure S7, Supporting Information). Due to the
+existence of EC in electrolyte, the peak area ratio of DMC:15-C-5
+in 15-C-5 contained electrolyte is twice that in DMC solution.
+The result in Figure 6b shows that the concentration of 15-C-5
+was reduced before and after 3 cycle test (the ratio of 1H NMR
+peak area is 6.96 and 6.55, respectively). This result shows that
+a little 15-C-5 was consumed in the process of SEI formation.
+Considering the strong coordination effect between crown
+ether and Li ions, we infer that the stable Li+/crown ether
+complexes may help for crown ether migrate to SEI surface.
+To verify the hypothesis, we also investigated the dynamics in
+the Li solvation shell of crown ethers contained electrolytes.
+In the molecular dynamics (MD) simulation box, crown ether
+molecules are uniformly dispersed in electrolyte (Figure S8,
+Supporting Information). The radial distribution function
+and cumulative coordination number is donated as g(r) and
+n(r), respectively. To calculate the g(r) (Figure S9, Supporting
+Information) and n(r), the positions of the carbonyl oxygen of
+EC and DMC, the P of PF6− and ether oxygen of crown ether
+(donated as Li-ECO, Li-DMCO, Li-P, and Li-CO, respectively)
+were used. In Figure 6c, Li+ ion is coordinated with EC, DMC,
+and PF6−. However, in crown ether contained electrolyte, the
+EC and DMC are replaced by crown ether molecules. The n(r)
+is 0.129 in 12-C-4 contained electrolyte system (Figure 6d) is
+smaller than n(r) = 0.314 in 15-C-5 contained electrolyte system
+(Figure 6e), showing that the stronger solvation of Li+/15-C-5
+compared to Li+/12-C-4. As show in Figure 6f, 18-C-8 is hardly
+coordinated with Li+ ion.
+The binding strength between Li+ and crown was further calculated by the VASP. The binding strength is determined by
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+the bong length of Li+–O and the number of oxygen atoms. The
+combined number of O atom was 4, 5, and 4 of 12-C-4, 15-C-5,
+and 18-C6, respectively. Although the O atom of 12-C-4 and
+15-C-5 can be firmly combined with Li+ due to the appropriate
+cavity size, the five Li+–O bonds made the binding energy of
+15-C-5 much higher than that of 12-C-4 (Figure S10a,b, Supporting Information). However, for 18-C-6, too large cavity size
+made Li+ only to combine with a part of O atoms (Figure S10c,
+Supporting Information). On the basis of adequately optimized ground-state structure, the molecular orbital simulation
+shows that Li+ is in the center of 12-C-4 (Figure 7a) and 15-C-5
+(Figure 7b) cavity and form four or five Li–O bonds, but the Li+
+is on one side of 18-C-6 and form four Li–O bonds (Figure 7c)
+As shown in Figure 7d, the calculated binding energy of Li+/12C-4 is −0.83 eV. But the calculated binding energy of Li+/15-C-5
+is −1.28 eV. Therefore, the Li+/15-C-5 complex is more stable
+than Li+/12-C-4 complex. It indicates that, among the all crown
+ethers, 15-C-5 possessed a higher probability for migrate to SEI
+surface. However, the cavity of 18-C-6 is so large that the Li–O
+bond is weak (bonding energy is −0.77 eV), leading to the 18-C-6
+almost no effect to increase the performance of Li battery.[39] 1H
+NMR spectrum was further used to study the chemical shift
+of crown ether after being combined with Li+. The results in
+the Figure 7e show the corresponding chemical shift. Due to
+the overlap of the lone pair electrons with the p-orbital of Li+,
+so that the chemical shift of 12-C-4 is much larger than that of
+15-C-5 although the latter complex is more stable.[40] However,
+the chemical shift of Li+/15-C-5 is larger than that of Li+/18-C-6,
+reflecting that the combination of 15-C-5 and Li+ is much
+tighter. Therefore, Li+/15-C-5 will migrate to SEI surface, which
+was driven by electric field force, after Li+/15-C-5 is covered
+
+2002578 (7 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+on the SEI surface, the EC and DMC molecules are difficult
+to contact the SEI surface due to the shielding of crown ether,
+whereas the F ion is not affected so that the proportion of LiF is
+significantly higher than others in SEI, thus the performance of
+LMBs is enhanced.
+
+3. Conclusions
+In summary, we have demonstrated that crown ethers could
+act as efficient electrolyte additives for LMBs. The most effective 15-C-5 showed excellent performance with 170 cycles at
+1.0 mA cm−2 with a capacity of 0.5 mA h cm−2 of symmetric
+Li|Li cells. The 15-C-5 additive also exhibited the excellent effect
+at high current density with 2.0 mA cm−2. In addition, obviously enhanced cycle and rate performance were achieved in
+Li|NCM622 full cells. The detailed characterization and theoretical calculations indicate that 15-C-5 can make crystal nucleus
+smoothly growth and isolate carbonate electrolyte, participate
+and assist to form smooth and dense SEI films, which effectively to repress Li dendrite growth and to boost the long-term
+cycle performance of Li metal battery. This work provides an
+effective direction to study efficient electrolyte additives for
+next-generation LMBs.
+
+0.02 eV Å−1, respectively. The binding energy (Eb) was computed in the
+following equation:
+E b = E total − E Li − E crown
+where Etotal, ELi, and Ecrown represent the total energy of the binding
+system, the potential of Li atom and the crown, respectively. MD
+simulations were performed using the large scale atomic/molecular
+massively parallel simulator (LAMMPS) code for electrolytes of 1.0 m
+LiPF6 in EC/DMC with 2.0 wt% crown ether additive. Simulation box
+contains 729 EC/DMC molecular, 100 LiPF6 molecular and 16/13/11
+numbers of 12-C-4/15-C-5/18-C-6, respectively. Initially, the molecules
+were packed randomly in a cubic box of size 71 × 71 × 71 Å3 periodic
+cell. The time step was fixed to be 1 fs in all simulation. First, simulation
+box were equilibrated for 200 ps in the isothermal-isobaric ensemble
+(constant NPT) and maintain a pressure of 1 bar and a temperature of
+298 K. Second, the whole system were heated to 400 K and maintained
+for 200 ps, then annealed from 400 to 298 K and maintained for 200 ps.
+Third, the simulation were conducted in the canonical ensemble (NVT)
+under Nose–Hoover thermostats at 298 K for 200 ps. The simulation
+time is long enough to ensure that the equilibrium state of the electrolyte
+system is reached. All MD simulation employed a non-polarizable force
+field which is defined by the following potential functions:
+
+(
+
+)
+
+E total ( r N ) = E bonds + E angles + E dihedrals +E impropers + E nonbonded
+E bonds =
+
+(1)
+
+∑ K r ( r − r0 ) 2
+
+(2)
+
+∑ K θ (θ − θ 0 )2
+
+(3)
+
+bonds
+
+4. Experimental Section
+Characterization: The morphological change of the lithium foil
+was characterized using scanning electron microscopy (SEM,
+HitachiS4800). In situ optical microscope was characterized by three-eye
+stereomicroscope (Zoom 650, Shanghai Tuming Optical Instrument
+Co., Ltd). Cryo-transmission electron microscope (cryo-TEM) were
+carried out via a Thermo Fisher Scientific Tecnai Arctica equipped with
+a Falcon II direct electron detector camera at a voltage of 200 kV. The
+assembly of the optical cell was operated in an argon-filled glovebox.
+X-ray photoelectron spectra (XPS) were collected with an in situ XPS
+(MDTC-EQ-M20-01), the XPS depth profiles were obtained by preset
+different sputtering time. 1H NMR spectrum was carried out by a
+nuclear magnetic resonance spectrometer (NMR, Bruker 400 MHz). The
+standard DMC solution with 1.0 wt%, 2.0 wt%, 5.0 wt%, and 10.0 wt%
+15-C-5 was checked and used as the reference curve.
+Electrochemical Measurements: Electrochemical measurements were
+evaluated in a 2025-type symmetric coin cells that consisted of the
+same Li foil at both sides. The electrolyte was lithium hexafluorophosphate
+(LiPF6, 1.0 m) dissolved in a mixture of ethyl carbonate (EC) and dimethyl
+carbonate (DMC) in a volume ratio of 1:1 with or without crown additives.
+The amounts of crown additives in electrolyte was 1.0 wt%, 2.0 wt%,
+and 4.0 wt%, respectively. For cell testing, 60 µL of electrolyte was used
+for plating/stripping galvanostatic testing at current densities of 1.0 and
+2.0 mA cm−2, respectively. For the full cells test, the NCM622 electrodes
+were prepared by mixing NCM622, carbon black and polyvinylidene
+fluoride (PVDF) in the ratio of 8:1:1 with N-methyl-2-pyrrolidone (NMP)
+as the solvent. The mass loading of the NCM622 electrodes was about
+3.4 mg cm−2. The Li foil is used as counter electrode. Galvanostatic
+measurements were performance on Neware battery testing system
+(CT-4008). Electrochemical impedance spectra (EIS) was carried out in
+8-channel electrochemical workstation (IVIUM) with a frequency range
+between 0.1 and 100 KHz.
+Theoretical Calculation: DFT and binding energy were performed by
+VASP.[41,42] The generalized gradient approximation (GGA) with Perdew–
+Burke–Ernzerhof (PBE)[43] exchange-correlation functional was employed
+to optimize the structures. The cutoff energy was set to 520 eV and the
+convergence criterion for the energy and force was set to 10−6 eV and
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+E angles =
+
+angles
+
+E dihedrals =
+
+∑ V 1+ cos(nφ − d )
+
+(4)
+
+∑ V 1+ d cos(nφ )
+
+(5)
+
+dihedrals
+
+E impropers =
+
+impropers
+
+ ∂ ij  12  ∂ ij  6 
+Cqi q j
+E nonbonded = ∑ 4ε ij   −    + ∑
+, r < rc ,
+ε rij
+rij 
+rij  
+
+
+
+i> j
+
+ i> j
+σ ii + σ jj
+ε ij = ε ii ε jj ,σ ij =
+2
+
+(6)
+
+Parameter comes from optimized potential for liquid simulation-all
+atomic variant (OPLS-AA) force field.[44]
+
+Supporting Information
+Supporting Information is available from the Wiley Online Library or
+from the author.
+
+Acknowledgements
+This work was supported by the National Natural Science Foundation of
+China (No. 11675051), and the Key Research and Development Program
+of Hunan Province of China (No. 2018GK2031). The authors also thank
+Prof. Yanbing He for testing samples in SEM and XPS.
+
+Conflict of Interest
+The authors declare no conflict of interest.
+
+2002578 (8 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.afm-journal.de
+
+Keywords
+additives, crown ethers, electrolytes, lithium anode protection, lithium
+metal batteries
+Received: March 20, 2020
+Revised: June 7, 2020
+Published online: July 12, 2020
+
+[1] X. B. Cheng, R. Zhang, C. Z. Zhao, Q. Zhang, Chem. Rev. 2017, 117,
+10403.
+[2] D. Lin, Y. Liu, Y. Cui, Nat. Nanotechnol. 2017, 12, 194.
+[3] H. Wang, R. Tan, Z. Yang, Y. Feng, X. Duan, J. Ma, Adv. Energy
+Mater. 2020, https://doi.org/10.1002/aenm.202000962.
+[4] Y. Guo, H. Li, T. Zhai, Adv. Mater. 2017, 29, 1700007.
+[5] X. Shen, H. Liu, X.-B. Cheng, C. Yan, J.-Q. Huang, Energy Storage
+Mater. 2018, 12, 161.
+[6] Y. Sun, N. Liu, Y. Cui, Nat. Energy 2016, 1, 16071.
+[7] K. Zhang, G. H. Lee, M. Park, W. Li, Y. M. Kang, Adv. Energy Mater.
+2016, 6, 1600811.
+[8] J. Liu, T. Qian, M. Wang, J. Zhou, N. Xu, C. Yan, Nano Lett. 2018, 18,
+4598.
+[9] S. Xia, X. Wu, Z. Zhang, Y. Cui, W. Liu, Chem 2019, 5, 753.
+[10] H. Dai, K. Xi, X. Liu, C. Lai, S. Zhang, J. Am. Chem. Soc. 2018, 140,
+17515.
+[11] J. Dong, H. Dai, Q. Fan, C. Lai, S. Zhang, Nano Energy 2019, 66,
+104128.
+[12] J. Yue, Y.-G. Guo, Nat. Energy 2019, 4, 174.
+[13] F. Han, A. S. Westover, J. Yue, X. Fan, F. Wang, M. Chi,
+D. N. Leonard, N. J. Dudney, H. Wang, C. Wang, Nat. Energy 2019,
+4, 187.
+[14] H. Chen, A. Pei, D. Lin, J. Xie, A. Yang, J. Xu, K. Lin, J. Wang,
+H. Wang, F. Shi, D. Boyle, Y. Cui, Adv. Energy Mater. 2019, 9,
+1900858.
+[15] X.-B. Cheng, C. Yan, X. Chen, C. Guan, J.-Q. Huang, H.-J. Peng,
+R. Zhang, S.-T. Yang, Q. Zhang, Chem 2017, 2, 258.
+[16] L. Liu, Y. X. Yin, J. Y. Li, S. H. Wang, Y. G. Guo, L. J. Wan, Adv. Mater.
+2018, 30, 1706216.
+[17] S.-S. Chi, Y. Liu, W.-L. Song, L.-Z. Fan, Q. Zhang, Adv. Funct. Mater.
+2017, 27, 1700348.
+[18] P. Xue, S. Liu, X. Shi, C. Sun, C. Lai, Y. Zhou, D. Sui, Y. Chen,
+J. Liang, Adv. Mater. 2018, 30, 1804165.
+[19] C. Wu, H. Huang, W. Lu, Z. Wei, X. Ni, F. Sun, P. Qing, Z. Liu, J. Ma,
+W. Wei, L. Chen, C. Yan, L. Mai, Adv. Sci. 2020, 1902643.
+[20] S. H. Choi, S. J. Lee, D. J. Yoo, J. H. Park, J. H. Park, Y. N. Ko, J. Park,
+Y. E. Sung, S. Y. Chung, H. Kim, J. W. Choi, Adv. Energy Mater. 2019,
+9, 1902278.
+
+Adv. Funct. Mater. 2021, 31, 2002578
+
+[21] L. Wang, A. Menakath, F. Han, Y. Wang, P. Y. Zavalij, K. J. Gaskell,
+O. Borodin, D. Iuga, S. P. Brown, C. Wang, K. Xu, B. W. Eichhorn,
+Nat. Chem. 2019, 11, 789.
+[22] Q. Yang, Z. Zhang, X. G. Sun, Y. S. Hu, H. Xing, S. Dai, Chem. Soc
+Rev. 2018, 47, 2020.
+[23] C.-C. Su, M. He, R. Amine, Z. Chen, R. Sahore, N. D. Rago,
+K. Amine, Energy Storage Mater. 2019, 17, 284.
+[24] J. Alvarado, M. A. Schroeder, T. P. Pollard, X. Wang, J. Z. Lee,
+M. Zhang, T. Wynn, M. Ding, O. Borodin, Y. S. Meng, Energy
+Environ. Sci. 2019, 12, 780.
+[25] R. Weber, M. Genovese, A. Louli, S. Hames, C. Martin, I. G. Hill,
+J. Dahn, Nat. Energy 2019, 4, 683.
+[26] J. Alvarado, M. A. Schroeder, T. P. Pollard, X. Wang, J. Z. Lee,
+M. Zhang, T. Wynn, M. Ding, O. Borodin, Y. S. Meng, K. Xu, Energy
+Environ. Sci. 2019, 12, 780.
+[27] Y. Zhou, M. Su, X. Yu, Y. Zhang, J.-G. Wang, X. Ren, R. Cao, W. Xu,
+D. R. Baer, Y. Du, Nat. Nanotechnol. 2020, 15, 224.
+[28] X. Q. Zhang, X. Chen, X. B. Cheng, B. Q. Li, X. Shen, C. Yan,
+J. Q. Huang, Q. Zhang, Angew. Chem., Int. Ed. 2018, 57, 5301.
+[29] J. Ming, Z. Cao, Y. Wu, W. Wahyudi, W. Wang, X. Guo, L. Cavallo,
+J.-Y. Hwang, A. Shamim, L.-J. Li, Y.-K. Sun, H. N. Alshareef, ACS
+Energy Lett. 2019, 4, 2613.
+[30] Y. Yamada, Y. Koyama, T. Abe, Z. Ogumi, J. Phys. Chem. C 2009, 113,
+8948.
+[31] Z. Wang, F. Qi, L. Yin, Y. Shi, C. Sun, B. An, H. M. Cheng, F. Li, Adv.
+Energy Mater. 2020, 10, 1903843.
+[32] X.-Q. Zhang, X.-B. Cheng, X. Chen, C. Yan, Q. Zhang, Adv. Funct.
+Mater. 2017, 27, 1605989.
+[33] Z. Wang, F. Qi, L. Yin, Y. Shi, C. Sun, B. An, H. M. Cheng, F. Li, Adv.
+Energy Mater. 2020, 1903843.
+[34] Q. Cheng, L. Wei, Z. Liu, N. Ni, Z. Sang, B. Zhu, W. Xu, M. Chen,
+Y. Miao, L.-Q. Chen, Nat. Commun. 2018, 9, 2942.
+[35] Y. Z. Li, Y. B. Li, A. Pei, K. Yan, Y. M. Sun, C.-L. Wu, L.-M. Joubert,
+R. Chin, A. L. Koh, Y. Yu, J. Perrino, B. Butz, S. Chu, Y. Cui, Science
+2017, 358, 506.
+[36] E. Peled, D. Golodnitsky, G. Ardel, J. Electrochem. Soc. 1997, 144, L208.
+[37] N. von Aspern, G. V. Roschenthaler, M. Winter, I. Cekic-Laskovic,
+Angew. Chem., Int. Ed. 2019, 58, 15978.
+[38] C. Cui, C. Yang, N. Eidson, J. Chen, F. Han, L. Chen, C. Luo,
+P. F. Wang, X. Fan, C. Wang, Adv. Mater. 2020, 1906427.
+[39] G. Z. Tulibaeva, O. V. Yarmolenko, A. F. Shestakov, Russ. Chem. B.
+Int. Ed. 2009, 58, 1589.
+[40] A. R. Fakhari, M. Shamsipur, J. Inclusion Phenom. Mol. Recognit.
+Chem. 1996, 26, 243.
+[41] G. Kresse, J. Furthmüller, Comp. Mater. Sci. 1996, 6, 15.
+[42] G. Kresse, J. Hafner, Phys. Rev. B 1993, 47, 558.
+[43] J. P. Perdew, K. Burke, M. Ernzerhof, Phys. Rev. Lett. 1996, 77, 3865.
+[44] T. Hou, G. Yang, N. N. Rajput, J. Self, S.-W. Park, J. Nanda,
+K. A. Persson, Nano Energy 2019, 64, 103881.
+
+2002578 (9 of 9)
+
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+16163028, 2021, 2, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202002578 by University Of Southern California, Wiley Online Library on [17/06/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+

@@ -1,0 +1,901 @@
+Chemical Engineering Journal 419 (2021) 129494
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+
+Self-leveling electrolyte enabled dendrite-free lithium deposition for safer
+and stable lithium metal batteries
+Lingyun Xu a, b, Jingbo Yang a, b, Moujie Huang a, b, Liu Pi c, Kaifa Du a, b, Dihua Wang a, b,
+An Lin a, b, Chuang Peng a, b, *
+a
+b
+c
+
+School of Resource and Environmental Science, Wuhan University, Wuhan 430072, China
+Hubei International Scientific and Technological Cooperation Base of Sustainable Resource and Energy, Wuhan University, Wuhan 430072, China
+WISDRI City Environment Protection Engineering Limited Company, Wuhan 430205, Hubei, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Electrodeposition
+Lithium metal anode
+Lithium dendrite
+Leveling additive
+Solid electrolyte interphase
+
+Lithium (Li) metal is considered an ideal anode material for future high-energy rechargeable batteries. However,
+the extremely unstable interfaces between lithium anode and electrolyte induce uncontrollable dendrite for­
+mation and low Coulombic efficiency, retarding its practical applications in Li metal batteries (LMB). Herein, we
+propose a facile and feasible strategy of introducing 12-Crown-4 ether as a leveling additive into the electrolyte
+to inherently eliminate the self-amplification behavior of dendrite growth. The Li+–additive complexes with low
+electron-accepting ability are preferentially adsorbed on the initial protuberant tips of Li metal surface, which
+can effectively regulate the local polarization resistance and improve the current distribution uniformity. Based
+on this principle, a self-leveling electrolyte comprising fluoroethylene carbonate (FEC) solvent and 12-Crown-4
+additive is developed. Dense and dendrite-free Li deposition, as well as enhanced interfacial stability is achieved
+in such electrolyte, rendering a significantly improved Coulombic efficiency (97.24%) in Li||Cu cells and a su­
+perior cycling stability in Li||Li cells. Moreover, a Li metal full-cell with high-loading LiFePO4 cathode (12.5 mg
+cm− 2) retains 98% capacity after 100 cycles at 0.5 C. This self-leveling electrolyte approach opens up new
+perspective on the mechanistic and methodological aspects for designing safer lithium metal batteries.
+
+1. Introduction
+Li metal is one of the highest-performing next-generation anodes due
+to its lowest electrode potential and high theoretical specific capacity
+[1–3]. When paired with a conversion-type cathode such as sulfur or
+oxygen [4–7], a high-energy full battery can be obtained. However, the
+unstable interface between Li metal and electrolyte gives rises to inho­
+mogeneous lithium deposition and uncontrollable dendrite formation,
+as well as low Coulombic efficiency and poor cycle performance [8–10].
+The fragility and heterogeneity of the solid electrolyte interphase
+(SEI) were identified as the root cause of inhomogeneous current density
+distribution and Li dendrite growth [11–13]. Typically, during Li plating
+a higher deposition rate may occur at parts of the SEI that have a lower
+interface impedance due to their smaller thickness or more ionconductive composition [14,15]. Furthermore, induced by locally
+enhanced electric field at the tip of the protrusions, Li deposition will
+preferentially occur on existing dendrites, and hence leading to a self-
+
+amplification effect of dendrite growth [16].
+Tremendous efforts have been devoted to constructing stable SEI
+films, including electrolyte engineering [17–23], artificial protective
+layers [24–31], solid-state electrolytes [32,33] and separators [34–36].
+Among these strategies, electrolyte engineering offers a convenient
+route to suppress Li dendrite growth, because it is compatible with the
+existing battery manufacturing process. It has been reported that LiFrich SEI with high uniformity and stability can be in-situ formed by
+introducing fluorine-containing co-solvents or additives such as LiF
+[37,38], fluoroethylene carbonate (FEC) [39–42], lithium difluoro(ox­
+alate)borate (LiDFOB) [43,44] and LiPF6 [45,46]. However, the thick­
+ness and composition of these in-situ formed SEIs are nonuniform upon
+repeated cycling, especially under high current density, thereby causing
+an unstable electrode interface. Moreover, once the uneven Li deposition
+occurs, the SEI layer will be easily broken by localized stresses, which
+aggravates the inhomogeneous current density distribution and ulti­
+mately leads to dendritic growth. Therefore, approaches relying only on
+
+* Corresponding author at: Hubei International Scientific and Technological Cooperation Base of Sustainable Resource and Energy, Wuhan University, Wuhan
+430072, China.
+E-mail address: Chuang.peng@whu.edu.cn (C. Peng).
+https://doi.org/10.1016/j.cej.2021.129494
+Received 31 January 2021; Received in revised form 17 March 2021; Accepted 21 March 2021
+Available online 27 March 2021
+1385-8947/© 2021 Elsevier B.V. All rights reserved.
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+a mechanically strong SEI film do not involve a fundamental change to
+the dendrite formation mechanism and may fail to offer longer-lasting
+protection to the Li metal.
+Although the development of effective electrolytes for stable SEI
+films and Li deposition is still in its infant stage, leveling additives have
+been widely used in traditional metal electroplating such as Cu [47,48],
+Ni [49,50], Zn [51,52], Mn [53,54] and Ag [55,56] to improve the
+quality of coatings. The leveling abilities of additives used in these
+electrolyte solutions are closely related to their influences on cathodic
+polarization [57]. Commonly, appropriate amounts of stable complex
+ions are formed by coordination of the leveling additives to metal spe­
+cies, which can be preferentially adsorbed on the protruding regions of
+the cathode surface that have thinner diffusion layer and stronger
+electrical field. This preferential adsorption of additives increases the
+local overpotential and decreases the deposition rate at the tips, leading
+to more uniform distribution of electric current. In the case of Li depo­
+sition, this leveling mechanism is expected to prevent protection failure
+of SEI film and alleviate the self-amplification behavior during dendrite
+growth.
+Here, we propose a new strategy of using leveling additives to ach­
+ieve dendrite-free lithium deposition in LMBs. A self-leveling electrolyte
+comprising FEC solvent and 12-Crown-4 additive has been developed,
+showing evident leveling effects and enhanced interfacial stability dur­
+ing Li deposition. Moreover, the practical use of the electrolyte is veri­
+fied by the improved Coulombic efficiency and prolonged cycle lives in
+Li||copper (Cu) half-cells, Li||Li symmetric cells and Li||LiFePO4 (LFP)
+full cells.
+
+(LFP) full cells were assembled in standard CR2032 coin-type cells with
+70 μL electrolyte in the Ar-filled glove box with oxygen and water
+contents below 0.1 ppm. For Coulombic efficiency test, the Li||Cu cells
+were assembled with a Cu foil (Φ = 12 mm) and a Li foil, and cycled at a
+constant current density of 1.0 mA cm− 2. In each cycle, the charge time
+of 1.0 h and discharge cut-off voltage of 1.0 V were fixed for the lithium
+plating and stripping process, respectively. For the Li||Li cell tests, Li
+foils were used as the working and counter electrode, and polyethylene
+(PE) membrane was employed as the separator. Galvanostatic cycling
+measurements were conducted on a LAND multichannel battery cycler
+(Wuhan LAND electronics Co., Ltd.) at a current density of 2 mA cm− 2
+and a charge/discharge capacity of 2 mAh cm− 2. The electrochemical
+impedance spectroscopy (EIS) measurement was performed on an
+Autolab PGSTAT302N electrochemical workstation (Metrohm,
+Switzerland) in a frequency range between 105 and 10− 1 Hz. The Li||LFP
+full cells were galvanostatically cycled within a voltage range of 2.5–4.2
+V at 0.5C (1.0C = 170 mA g− 1) after one activation cycle at 0.1C. Threeelectrode measurements were experimentally conducted using a her­
+metically sealed electrolyzer. Li foils were used as the working and
+counter electrode. A scraped and cleaned piece of Li metal was used as
+the pseudo-reference electrode (RE). The data was collected using a
+bipotentiostat electrochemical workstation of PARSTAT MC (Princeton,
+USA), which can measure the potential of the counter electrode and
+working electrode vs RE simultaneously.
+
+2. Experimental section
+
+For in situ optical characterization, two types of transparent and airtight electrochemical cells were fabricated. The glass capillary cell with
+Li metal as both cathode and anode was adopted for cross-sectional
+observation of Li plating/stripping and the quartz window cell with
+Cu as cathode and Li metal as anode was adopted for overhead obser­
+vation of Li deposition on Cu foil. The entire assembly of optical cells
+were conducted in an Argon-filled glovebox with water and oxygen
+content less than 0.1 ppm. After assembly, cells were removed from the
+glovebox and placed under a super deep scene 3D microscope (VHX5000, Japan) for viewing.
+
+2.4. In situ optical microscopic observations.
+
+2.1. Material preparation
+Li chips (99.9% purity, 250 µm thickness) and Cu foils (99.9% purity,
+6 µm thickness) were purchased from Shenzhen Kejing Star Technology
+Company Ltd. Lithium hexafluorophosphate (LiPF6), ethylene carbonate
+(EC), dimethyl carbonate (DMC), fluoroethylene Carbonate (FEC), 12Crown-4 ether, and 18-Crown-6 ether were purchased from SigmaAldrich. Lithium iron phosphate (LiFePO4) cathode with a mass
+loading of 12.5 mg cm− 2 were obtained from MTI Corporation. The
+electrolytes were prepared by blending 1.0 M LiPF6 in the solvent
+mixture of EC/DMC or FEC/DMC (1:1 by volume). The additivecontaining electrolytes were prepared through the addition of
+required amounts of 12-Crown-4 or 18-Crown-6 to the as-prepared FEC/
+DMC electrolyte. All materials were kept and used in an argon-filled
+glove box with oxygen and water contents below 0.1 ppm.
+
+2.5. Computational details
+The first-principles calculations were conducted in Gaussian (G09)
+software package [58]. The M06-2X/6-311G(d,p) density functional
+method [59] was employed for geometry optimization and electron af­
+finity calculations. The SMD implicit solvation model [60] with acetone
+parameters (dielectric constant ε = 20.493) was used to account for the
+solvent effect in a mixed carbonate solvent electrolyte. The vertical
+electron affinity (VEA) is calculated as the energy difference between
+the cationic species (Li+–L, L represents EC, DMC, FEC, 18-Crown-6 or
+12-Crown-4) and neutral lithium species (Li0–L) with both at the opti­
+mized geometry of the cations (E1-E2), while adiabatic electron affinity
+(AEA) is calculated as the energy difference between the cationic and
+neutral lithium species at their respective optimized geometries (E1-E3).
+
+2.2. Material characterization
+The morphologies of Li deposits and cycled Li metal anodes were
+characterized by SIGMA scanning electron microscope (SEM, Zeiss,
+Germany) operated at 5.0 kV. The depth profiles of surface chemical
+composition were identified by Escalab250Xi X-ray photoelectron
+spectrometer (XPS, Thermo Fisher Scientific, USA) at various argon ion
+sputtering times. For SEI characterization, Li||Cu cells were discharged
+for 0.1 h at 1.0 mA cm− 2 and then charged to the cutoff voltage of 1.0 V.
+After 10 cycles, deposited Li metal was stripped from the Cu foil, leaving
+the SEI layer on the substrate for analysis. All the above samples ob­
+tained from disassembled cells were first rinsed by DMC solvent five
+times to remove the remaining electrolytes, and finally dried under
+vacuum. To avoid the contamination of ambient oxygen and moisture,
+the samples were transported from the glovebox to the SEM and XPS
+instruments using an Ar protected transfer box.
+
+3. Results and discussion
+3.1. Current density distribution model and leveling mechanism
+During the process of metal electrodeposition, the resistances to
+current flow mainly include solution resistance (Rs) and polarization
+resistance (Rp). In the case of highly reactive Li, the SEI layer acts as an
+ionic conductor and electronic insulator, which creates an additional
+surface film resistance (Rf). When ignoring the influence of anodic po­
+larization, at an applied potential (U), the actual current value (I) at a
+specific location of the cathode surface is calculated by:
+
+2.3. Electrochemical measurement.
+The Li||copper (Cu) half-cells, Li||Li symmetric cells and Li||LiFePO4
+2
+
+L. Xu et al.
+
+I=
+
+U
+Rs + Rp + Rf
+
+Chemical Engineering Journal 419 (2021) 129494
+
+ether, strong ion-additive complexes are formed by the coordination
+of 12-Crown-4 to Li+, resulting in a high reductive stability and more
+negative reduction potential of the Li+–12-Crown-4 complex (E+
+Li/Li)
+compared with that of the ion–solvent complexes. Once nonuniform
+deposition occurs, the regions at higher altitude have a stronger elec­
+trical field and a thinner diffusion layer, causing more complex-ions
+(including ion–solvent and ion-additive complexes) to be adsorbed on
+the tips. However, the adsorbed ion-additive complexes can be hardly
+electroplated on the substrate, instead they are accumulated around the
+tips and form an electrostatic shield to repel incoming ion–solvent
+complexes (Route 2 in Fig. 1e and f). Therefore, a notably increased
+polarization resistance of Rp-t will be obtained at the tips, potentially
+leading to a higher total resistance at tips than the flat regions, i.e., Rs-t +
+Rf-t + Rp-t > Rs-f + Rf-f + Rp-f. As a result, lithium plating tends to show a
+faster deposition rate at flat regions (Dtip < Dflat) and the height differ­
+ence is gradually decreased, which fundamentally eliminates the
+dendrite amplification effect during Li deposition.
+The leveling effect originates from the more negative reduction po­
+tential of the ion–additive complex (Li+–12-Crown-4) compared with
+that of ion–solvent complexes. First-principles calculations (Fig. 2) were
+performed to elucidate the interaction of Li+ with three typical ester
+solvents (EC, DMC and FEC) and two crown ether additives (12-Crown-4
+and 18-Crown-6). The optimized geometrical structures (Fig. 2a) suggest
+that Li+ tends to bind with the carbonyl oxygen in EC, DMC and FEC. In
+comparison, Li+ binds with four cyclic oxygen atoms in 12-Crown-4 or
+three cyclic oxygen atoms in 18-Crown-6. The LUMOs of all the com­
+plexes are mainly contributed by the s orbitals of the metal atoms,
+indicating that the captured electrons are largely located on Li.
+The vertical electron affinity (VEA) and adiabatic electron affinity
+(AEA) values (Fig. 2b) of the complex ions are calculated based on the
+optimized geometries and summarized in Fig. 2c and Fig. S3. In com­
+parison to the ion–solvent complexes of Li+–EC, Li+–DMC and Li+–FEC,
+all the crown ether complexes show a significantly reduced value of VEA
+and AEA, suggesting a lower electron-accepting ability. Thus Li+ ions
+become more difficult to reduce on the metallic lithium electrode once
+they are complexed with crown ether in electrolytes. Specifically, the
+Li+–12-Crown-4 exhibits the lowest VEA and AEA values (0.89 eV and
+0.97 eV, Table S1) so that it can largely weaken the reducibility of Li+.
+The complexes of Li+–12-Crown-4 and Li+–18-Crown-6 also exhibit
+much higher LUMO energy levels (− 0.26 eV and − 0.25 eV, Fig. 2d and
+Table S2) comparing with the other three ion–solvent complexes, which
+
+(1)
+
+Under ideal conditions, it is assumed that any point of the cathode
+surface is equidistant from the anode and covered with a uniform SEI
+layer, thus have equal Li deposition rate. However, in practical cases,
+because of the inconstant thickness and composition of the SEI,
+nonuniform Li deposition can easily take place even under smaller dif­
+ference of interface impedance. Various resistance values that develop at
+protuberant tips and flat regions of the cathode surface need to be
+distinguished individually (circuit diagram in Fig. 1a), and the ratio of
+current density is calculated with the following equation:
+Dtip RsÂ­f + Rf Â­f + RpÂ­f
+=
+Dflat
+RsÂ­t + Rf Â­t + RpÂ­t
+
+(2)
+
+where Rs-f, Rf-f and Rp-f are the ohmic resistance, surface film resistance
+and polarization resistance at the flat regions, and Rs-t, Rf-t and Rp-t are
+the corresponding resistances at the protuberant tips. As show in Fig. 1b,
+once uneven deposition occurs (Dtip > Dflat), protuberant tips with
+smaller distance to the anode usually have lower ohmic resistance and
+surface film resistance (Rs-t + Rf-t < Rs-f + Rf-f). Although increased po­
+larization resistance can also be obtained at tips (Rp-t > Rp-f) due to
+higher deposition current. It is insufficient to balance their total resis­
+tance (Rs-t + Rf-t + Rp-t < Rs-f + Rf-f + Rp-f) so higher current density arises
+at the tips. Therefore, in a conventional electrolyte, weak ion–solvent
+complexes such as Li+-EC and Li+-DMC will be preferentially electro­
+reduced around the tips rather than the flat regions of the Li substrate
+(through Route 1 in Fig. 1c and d), causing a self-amplification effect of
+dendrite growth. Route 1 is the most common growth pattern of Li
+deposition, which can be observed distinctly in an in-situ capillary cell
+through optical microscope (Fig. S1a and Fig. S2a). In a real battery, the
+formation of lithium dendrite could penetrate through the separator,
+causing short-circuiting. Furthermore, during dissolution (Fig. S1b),
+dendritic Li breaks away from the conductive substrates easily and be­
+comes inactive or isolated Li (dead Li), leading to capacity loss and low
+Coulombic efficiency.
+To solve this problem, we introduce 12-Crown-4 ether as leveling
+additive into the electrolyte to optimize the current density distribution.
+Previous work suggests that crown ethers have strong complexation
+ability to Li ions [61,62], and it also shows good compatibility with
+ether-based or ester-based electrolytes. In the presence of 12-Crown-4
+
+Fig. 1. Schematic illustrations of Li deposition. (a) Circuit diagram representation of the various resistances that develop at protuberant tips and flat regions of the Li
+metal surface. (b) Beginning of the nonuniform Li deposition. (c, d) Self-amplification effect of Li dendrite growth in the conventional electrolyte without leveling
+additives. (e, f) Leveling effect of Li deposition in the optimized electrolyte with leveling additives.
+3
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+Fig. 2. First-principles study of lithium complexes. (a) The optimized geometrical structures and visual LUMOs of ion − solvent (Li+− EC, Li+− DMC, and Li+− FEC)
+and ion − additive complexes (Li+− 12-Crown-4, and Li+− 18-Crown-6). (b) Schematic diagram for the calculation of vertical electron affinity (E1-E2) and adiabatic
+electron affinity (E1-E3), L represents EC, DMC, FEC, 12-Crown-4 or 18-Crown-6. Summary of (c) vertical electron affinity energy and (d) LUMO energy level of
+lithium complexes.
+
+further confirms the low electron-accepting ability of ion–additive
+complexes.
+The impact of additive concentration on the Li stripping/plating
+Coulombic efficiency (CE) was investigated employing coin-type Li||Cu
+half-cells (Fig. S4). Different amounts of 12-Crown-4 (concentrations
+from 0.1 to 2.0 wt%) were added to the electrolyte of 1.0 M LiPF6 in
+DMC/FEC (1:1 by volume). As shown in Fig. S4a-h, at the current den­
+sity of 1.0 mA cm− 2, the average CE increased with the 12-Crown-4
+concentration increasing from 0.1 to 1.0 wt%, reaching the highest
+value of 97.24%. However, at additive concentrations higher than 1.0
+wt%, the CE decreased and the polarization voltage rapidly increased
+(Fig. S4i and j), indicating that too much additives might induce extra
+energy barrier for Li deposition. Therefore, a concentration of 1.0 wt%
+12-Crown-4 is used in the subsequent experiments, and a high average
+CE of 98.47% can be maintained throughout 100 cycles at a current
+density of 0.5 mA cm− 2 (Fig. S5). In addition to 12-Crown-4, 18-crown-6
+is also effective in improving Li CE as the first-principles calculations
+predict. An average efficiency of 95.45% is obtained for the electrolyte
+containing 1.0 wt% 18-Crown-6 at 1.0 mA cm− 2 (Fig. S6).
+
+dendrites (protuberant tips) appeared in both the 3D and 2D images
+(Fig. 3a and Fig. S7a) after 5 min of electrodeposition. As the deposition
+proceeds, more mossy dendrites were formed on the surface, while the
+size of the pre-existing ones grew rapidly to form fractal Li dendrites and
+the altitude of the surface was raised from 128 μm to 235 μm within the
+following 25 min. This accelerated dendrite growth provides direct ev­
+idence on the self-amplification effect during Li deposition. When FEC
+was selected as co-solvent instead of EC, the deposited Li showed a grey
+color and mossy dendrite growth was significantly reduced (Fig. 3b and
+Fig. S7b). This is attributed to the formation of a higher quality SEI layer
+in the presence of the fluorine-containing solvents (Fig. S8). However,
+these SEI layers could also be broken by localized stresses during plating,
+and the uneven Li deposition was also observed in the FEC/DMC elec­
+trolyte. At locations of uneven Li deposition, shiny metallic lustre is
+observed, which is attributed to the lack of SEI layer of the rapidly grown
+Li at high deposition rate. Thus, the self-amplification behavior of the
+dendrite growth was not eliminated in this electrolyte and the altitude of
+the surface increased rapidly within 30 min. In contrast, with further
+addition of 12-Crown-4 to the FEC/DMC electrolyte, a smooth and dense
+Li metal with dendrite-free surface was obtained and maintained within
+30 min of continuous deposition (Fig. 3c and Fig. S7c). In fact, the SEI
+could also be locally broken during plating, as evidenced by the bright
+spots on the surface. Unlike the other two electrolytes, these exposed Li
+spots did not show rapid growth. Instead, the altitude of the surface
+increased slowly to 140 μm within the first 20 min, and then decreased
+to 135 μm at 30 min, implying the fundamental transition of Li depo­
+sition behavior from self-amplification to self-leveling.
+The above observations also indicate that the conventional com­
+mercial electrolyte of EC/DMC has no advantage in terms of construct­
+ing stable SEI films compared with FEC/DMC electrolyte. What’s more,
+the Li CE can be hardly improved when adding 12-Crown-4 or 18-
+
+3.2. In situ observation of Li dendrite growth
+To demonstrate the dendrite-inhibiting behavior of the crown ether
+additives, in situ optical microscopy was employed to observe the dy­
+namic morphology evolution of Li deposited on Cu foil. The images of Li
+deposited at durations from 5 to 30 min are recorded and compared
+among the following three electrolytes: 1) 1.0 M LiPF6 in FEC/DMC with
+1 wt% 12-Crown-4 (denoted as FEC/DMC/12-Crown-4), 2) 1.0 M LiPF6
+in FEC/DMC without additive (FEC/DMC), 3) 1.0 M LiPF6 in EC/DMC
+without additive (EC/DMC).
+In the EC/DMC electrolyte, an uneven surface with several mossy Li
+4
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+Fig. 3. In situ 3D optical microscopic images of Li deposition on Cu foil in the electrolytes of (a) EC/DMC, (b) FEC/DMC and (c) FEC/DMC/12-Crown-4 at current
+density of 2 mA cm− 2.
+
+Crown-6 to the electrolyte of EC/DMC (Fig. S9 and Fig. S10). In this case,
+even using the leveling additives, the optimization of current density
+distribution will be much more difficult. On the contrary, in the DMC/
+FEC/12-Crown-4 electrolyte, the probability of protection failure of
+SEI film will be significantly reduced. And once the SEI was locally
+broken, ion-additive complexes can effectively regulate the local po­
+larization resistance and result in a uniform current distribution.
+
+structure with flat surface (Fig. 4c), corresponding to the further reduced
+Li surface area and a much higher Li CE (>95%, Fig. S11). Thus, the
+addition of 12-Crown-4 additive is helpful for forming a uniform and
+dendrite-free lithium deposition, and the morphology transformation
+contributes to the improvement of Li CE.
+The depth-profiling X-ray photoelectron spectroscopy (XPS) analysis
+shows that the SEI layer formed in EC/DMC electrolyte has a low fluo­
+rine but rather high carbon and oxygen content (Fig. 4d). The detailed
+analyses of Li 1 s and C 1 s (Fig. 4g and Fig. S12a) indicated that the
+surface of the SEI mainly consists of ROCO2Li (~54.7 eV in Li 1 s) and
+Li2CO3 (~55.2 eV in Li 1 s) [40] due to the adverse reaction of carbonate
+solvents with lithium metal. Only a small content of LiF (~55.6 eV in Li
+1 s) [39] was generated at different depths of the SEI by the decompo­
+sition of LiPF6 (Fig. S12d) because of the lack of fluorine in the solvent.
+Meanwhile, The Li2O (~53.8 eV in Li 1 s) [40]species gradually
+increased with surface thickness, as evidenced by the considerable peak
+at ~ 528.0 eV in O 1 s [42] spectra (Fig. S12g). SEI films like this con­
+taining low LiF and high Li2O content can hardly prevent Li metal from
+electrolyte corrosion [45]. In contrast, the SEI formed in the FEC/DMC
+electrolyte shows a much higher fluorine content at different depths of
+the layer (>15%, Fig. 4e). The higher LiF content (Fig. 4h) is because of
+the spontaneous reactions between fresh Li and FEC, not merely the
+adverse decomposition of LiPF6. LiF is favorable for formation of a dense
+and uniform SEI layer, thus effectively suppressing Li dendrite growth
+and parasitic reactions between the electrolyte and Li metal. Upon
+further addition of 12-Crown-4 into the FEC/DMC electrolyte, a
+
+3.3. Li deposition morphology and SEI chemical composition
+To gain deeper understanding of the deposited Li and the SEI layers
+formed in the three electrolytes, a fixed amount of lithium metal (1.0
+mAh cm− 2) was deposited on Cu substrate using coin-type Cu||Li cells.
+The Li deposited in EC/DMC electrolyte shows a fibrous structure with
+the length of several micrometers and diameter of hundreds of nano­
+meters (Fig. 4a). Besides the fibrous Li formation, substantial needle-like
+dendritic Li is discernible from the Li metal surface, which could in­
+crease the electrolyte decomposition reactions and consequently causes
+a low Li CE (<85%, Fig. S11). Replacing EC by FEC leads to stout Li
+pillars with larger diameters and needle-like dendritic Li does not appear
+during the deposition (Fig. 4b), suggesting that FEC/DMC electrolyte
+could facilitate the formation of high-quality SEI films on Li surface. The
+increase of Li fiber diameter readily reduces the surface area of the
+deposited Li, alleviating the parasitic reactions and improving the Li CE
+(>90%, Fig. S11). In contrast, with further addition of 12-Crown-4 ad­
+ditive, the deposited Li exhibits a remarkably different bulky slab
+5
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+Fig. 4. Li deposition morphology and SEI chemical composition. SEM images of Li depositing morphology on Cu foils using the electrolytes of (a) EC/DMC, (b) FEC/
+DMC and (c) FEC/DMC/12-Crown-4 at a current density of 2 mA cm− 2 and capacity of 1 mAh cm− 2. Insets in (a), (b) and (c) are the optical images of the deposited
+Li. Chemical composition of SEI layers formed in (d) EC/DMC, (e) FEC/DMC and (f) FEC/DMC/12-Crown-4 electrolyte after various Ar+ sputtering times. The indepth XPS spectra of Li 1 s for SEI layer formed in (g) EC/DMC, (h) FEC/DMC and (i) FEC/DMC/12-Crown-4 electrolyte.
+
+markedly higher fluorine content (>35%) was detected in the SEI
+(Fig. 4f). Moreover, the decomposition byproducts (ROCO2Li and
+Li2CO3) in the SEI film were further decreased compared to that in FEC/
+DMC electrolyte (Fig. 4i and Fig. S12c), indicating that the dendrite
+growth and Li metal corrosion were effectively suppressed. These are
+ascribed to the combinational effects of FEC solvent and 12-Crown-4, i.
+e., FEC facilitates the formation of a robust SEI film while12-Crown-4
+additive produces a leveling effect during Li deposition. Unlike exist­
+ing stable lithium plating methods that optimize the SEI composition,
+the leveling effect in this work functions by altering the local electrolyte
+composition at tip regions, thereby inhibiting its further growth.
+
+the voltage profiles shows different trends among the three electrolytes.
+The cell with EC/DMC electrolyte displays continuous increase in
+voltage hysteresis from ~ 60 mV to ~ 200 mV over 125 cycles, indi­
+cating gradually increased internal resistance. This can be attributed to
+excessive electrolyte decomposition and dead Li accumulation induced
+by severe dendrite growth and continuous breakdown and reestablish­
+ment of SEI films. However, the cell with FEC/DMC electrolyte presents
+a gradually decreasing voltage hysteresis, which finally drops to 26 mV
+after 250 h cycling and displays an exact flat profile, which is a sign of
+micro short circuit. It can be explained by a large increase in the effec­
+tive surface area of the electrodes during cycling, owing to its moderate
+dendrite growth and the fibrous structure of the deposited Li (Fig. 4b). In
+contrast, the cell using FEC/DMC/12-Crown-4 electrolyte shows a
+highly stable voltage profile throughout the 250 h cycling with a fairly
+steady voltage hysteresis of 60 mV. When the areal capacity was
+increased to 5 mAh cm− 2, the cell with the FEC/DMC/12-Crown-4
+electrolyte can cycle steadily up to 100 h at a high current density of
+5 mA cm− 2 (Fig. S13). Moreover, in an Li||Li symmetric cell using a
+Polytetrafluoroethylene (PTFE, Teflon) ring as a separator (Fig. S14a),
+the cells with EC/DMC/12-Crown-4 can also cycle over 60 h steadily at
+current density of 2 mA/cm− 2 (Fig S14d). This improved cycle perfor­
+mance can be ascribed to the stabilized metal/electrolyte interfaces and
+alleviated dendrite growth afforded by the combined effects of 12-
+
+3.4. Li||Li symmetric cell performance
+To investigate the long-term stability of Li plating/stripping, galva­
+nostatic cycling measurements were performed using Li||Li symmetric
+cells. Fig. 5a presents the time-dependent voltage curves of the Li||Li
+cells using different electrolytes, and the detailed voltage profiles be­
+tween five different time intervals are shown in Fig. 5b. In the first few
+cycles, the cells assembled with different electrolytes exhibit similar
+charge/discharge curves with a voltage hysteresis around 60 mV, indi­
+cating the using of FEC and 12-Crown-4 did not induce extra energy
+barrier for Li plating/stripping. In the following cycles, the evolution of
+6
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+Fig. 5. Electrochemical performances of Li||Li symmetrical cells. (a) Long-term cycling performance of Li||Li cells using the electrolytes of EC/DMC, FEC/DMC, and
+FEC/DMC/12-Crown-4 at a current density of 2 mA cm− 2 and a charge/discharge capacity of 2 mAh cm− 2. (b) Magnified voltage profiles between the time intervals
+of 0–6 h, 50–56 h, 100–106 h, 150–156 h, and 244–250 h. (c) Magnified voltage profiles of the second half-cycle. (d) Electrode potential and cell voltage profiles
+measured in the three-electrode setup using EC/DMC electrolyte. For visual aid, the potential value of WE had been multiplied by − 1 and the total cell voltage = WE
++ CE. (e) Schematic representation of different Li electrodissolution behavior at the anode. Nyquist impedance plots and fitting curves for the cells at different stages
+of cycling: (f) after 2 cycles, (g) after 50 cycles, and (h) after 100 cycles. Insets: equivalent circuit model and magnified view of the high-frequency region.
+
+Crown-4 and FEC. Arrhenius curves (Fig. S15a) and the CV curves
+(Fig. S15b) of the Li||Li cells with different electrolytes were evaluated,
+which verify that the optimized FEC/DMC/12-Crown-4 electrolyte dis­
+plays faster mass transfer and electrode kinetics.
+Besides the general evolution of voltage hysteresis, the shape of
+voltage profiles in the initial cycles provides an important indication of
+electrode degradation during cell cycling. In the first half-cycle, an im­
+mediate drop of the cell voltage is commonly observed (Fig. 5b), which
+is due to the activation barrier associated with initial Li nucleation/
+dissolution. In the subsequent second half-cycle (labelled by dashed
+brown rectangle in Fig. 5b and further enlarged in Fig. 5c), a charac­
+teristic peaking behavior (positions indicated by arrow in Fig. 5c) is
+
+observed, indicating a voltage maximum within this half cycle. The cells
+with FEC/DMC and FEC/DMC/12-Crown-4 electrolytes exhibit delayed
+voltage peak that occurs at a later time than that the cell with EC/DMC,
+which can be directly correlated with alleviated electrode degradation
+during cycling [63]. This interpretation is further confirmed by the
+electrode potential and cell voltage profiles (Fig. 5d) measured in the
+three-electrode setup using EC/DMC electrolyte. After the first halfcycle, the initial drop in the cell voltage (region A) is predominantly
+associated with the drop in polarization at the cathode (CE) due to the
+transition in electrodeposition behavior from Li nucleation to Li growth.
+After a local minimum is reached, anode (WE) polarization begins to
+dominate the cell voltage, which steeply rises to a local maximum
+7
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+(region B). This corresponds to the transition in electrodissolution
+behavior from Li+ removal from previously plated dendritic Li to the
+bulk Li, as illustrated in Fig. 5e. As electrodissolution proceeds, a second
+decrease in cell voltage (region C) is observed, which is associated with
+the polarization drop in the anode. This polarization drop within Region
+C suggests that pit dissolution (inset C in Fig. 5e) is probably the
+dominant anodic process, which is detrimental to electrode stability as
+subsequent Li deposition will preferentially occur on these pits. There­
+fore, the delayed voltage peaks in FEC/DMC and FEC/DMC/12-Crown-4
+electrolytes indicate a reduced duration of pit dissolution, and hence
+alleviated electrode degradation during cycling. Moreover, after several
+tens of cycles, the characteristic peak delay behavior of FEC/DMC be­
+comes significantly less pronounced than that for FEC/DMC/12-Crown4, suggesting that the corresponding Li dissolution preferentially takes
+place from damaged lithium surface in absence of the leveling additive.
+Electrochemical impedance spectroscopy (EIS) test was carried out
+to probe the inner resistance and interfacial stability of Li||Li symmetric
+cells. Fig. 5f-h presents the Nyquist plots and fitting curves of cells using
+
+the above three electrolytes after 2, 50, and 100 plating/stripping cycles.
+The electrolyte resistance (Rbulk) and the interfacial resistance (Rint, the
+sum of the SEI film resistance (Rfilm) and the charge transfer resistance
+(Rct)) values were obtained by fitting the EIS data to the equivalent
+circuit in the inset of Fig. 5f and their corresponding values are listed in
+Supplementary Table S3. The cells with FEC/DMC and FEC/DMC/12Crown-4 electrolytes exhibit almost constant Rbulk values independent
+of cycling number. However, the Rbulk of the cell with EC/DMC elec­
+trolyte significantly increases from 6 Ω to 16 Ω after 50 cycles and to 27
+Ω after 100 cycles. The obvious increase in electrolyte resistance is
+attributed to the quick consumption of electrolyte caused by severe
+dendrite growth and aggressive side reactions, which affects the trans­
+port of Li+ ions and leads to ever-increasing voltage hysteresis. The Rint
+values of the cells using EC/DMC and FEC/DMC decrease significantly
+from 129 Ω to 9 Ω and from 144 Ω to 30 Ω respectively after the initial
+50 cycles (Fig. 5f and g). The rapid drop in interfacial resistance is due to
+the SEI breakdown and Li dendrite formation, which significantly in­
+crease the interfacial area between the electrolyte and lithium metal. In
+
+Fig. 6. Electrochemical performances of Li||LFP cells and morphology of cycled Li metal anodes. (a) Long-term cycling performance of Li||LFP cells using different
+electrolytes at 0.5C after one activation cycle at 0.1C. (b) Galvanostatic charge–discharge curves of Li||LFP cells using FEC/DMC and FEC/DMC/12-Crown-4
+electrolyte at the 1st and 50th cycle. (c) Nyquist plots of Li||LFP cells using FEC/DMC and FEC/DMC/12-Crown-4 electrolyte after 2 and 50 cycles. Top and
+cross-sectional SEM images of the cycled Li metal anodes recovered from Li||LFP cells using the electrolytes of (d) EC/DMC, (e) FEC/DMC, and (f) FEC/DMC/12Crown-4 after 20 cycles.
+8
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+mAh g− 1) at the same rate.
+Both the electrochemical and morphological data validate that the
+FEC/DMC/12-Crown-4 electrolyte is highly promising for LMBs owing
+to the dendrite-free lithium deposition by leveling effect. In addition, it
+is noteworthy that, compared with Li||Li symmetric cells, the cycling
+performance and interfacial stability of Li||LFP cells does show a faster
+decay. This can be attributed to continuous deterioration of the cathodeelectrolyte interphase (CEI) triggered by the soluble byproducts gener­
+ated at the Li metal anode [64], which needs further improvement in
+future study.
+
+contrast, the cell using FEC/DMC/12-Crown-4 electrolyte has less
+reduction of the Rint value, decreasing from 153 Ω to 89 Ω after 50 cycles
+and then to 54 Ω after 100 cycles (Fig. 5h). These results confirm that the
+12-Crown-4 additive can promote the formation of a stable electrode/
+electrolyte interface, thus effectively inhibiting dendrite growth and
+improving cycling performance.
+3.5. Li||LiFePO4 full cell performance
+To demonstrate the practical applications of 12-Crown-4 in LMBs,
+full cells were assembled with LiFePO4 (12.5 mg cm− 2) cathode and Li
+metal anode, and tested in comparison with the other two electrolytes. It
+is worth noting that at such a high cathode loading, the amount of Li
+metal involved in the plating/stripping during each cycle will greatly
+increase, leading to more parasitic reactions and faster capacity fading.
+The electrochemical stability of various electrolytes was evaluated using
+linear sweep voltammetry (Fig. S16) and cyclic voltammetry (Fig. S17).
+Low anodic current was observed even at 5.0 V for the FEC/DMC/12Crown-4 electrolyte, implying its high oxidation stability matches well
+with LiFePO4 cathode. Fig. 6a shows the cycling performance of the Li||
+LFP cells between 2.5 and 4.2 V at 0.5C (1.06 mA cm− 2) after 0.1C (0.21
+mA cm− 2) activation for one cycle. All cells in the three electrolytes
+display similar initial charge/discharge voltage profiles with a high
+specific capacity of over 155 mAh g− 1 (Fig. S18a). The conventional EC/
+DMC electrolyte presents poor cycling stability, evidenced by the
+sharply decayed specific capacity and dramatically increased voltage
+hysteresis (Fig. S18b). Specifically, the cell fail with a capacity retention
+of less than 30% after only 20 cycles. The cell with FEC/DMC shows
+enhanced cycling stability and a capacity retention of 83% after 50 cy­
+cles. However, its capacity quickly drops to less than 30% of the initial
+capacity after 70 cycles (Fig. 6a) and the voltage hysteresis grows
+significantly during cycling (Fig. S18c). In contrast, the cell with FEC/
+DMC/12-Crown-4 electrolyte exhibits markedly improved cycling sta­
+bility, retaining 98% of the original capacity after 100 cycles, with an
+average Coulombic efficiency of 99.4% over 138 cycles. Moreover, the
+cell shows a much smaller increase of voltage hysteresis during cycling
+as compared to the additive-free electrolyte (Fig. 6b, Fig. S18c and d),
+which is attributed to the formation of more stable and less resistive
+interface between Li anode and electrolyte.
+The Nyquist plots and fitting curves of the Li||LFP cells using the
+above three electrolytes at different stages of cycling are presented in
+Fig. S19a-c. The interfacial resistances (Rint) increase from the 2th to
+20th cycles in the following order: FEC/DMC/12-Crown-4 < FEC/DMC
+< EC/DMC (Table S4). The cell with EC/DMC electrolyte exhibits the
+largest interfacial resistance after both 2cycles (101 Ω) and 20 cycles
+(1591 Ω). The increase of Rint can be attributed to the accumulation of a
+fairly resistive surface film on the Li metal and cathode surfaces [64].
+Moreover, the Rint value of FEC/DMC electrolyte without the leveling
+additive increases rapidly to 435 Ω after 50 cycles, whereas in the
+presence of the 12-Crown-4 the value is only 128 Ω (Fig. 6c). The everincreasing resistances in EC/DMC and FEC/DMC indicate the unstable
+interface and fast Li anode degradation during cycling, which is well
+supported from the top and cross-sectional SEM images of the cycled Li
+metal anodes shown in Fig. 6d-f. Compared with the porous and loose Li
+morphology generated form the EC/DMC and FEC/DMC electrolyte, the
+surface of Li anode obtained from FEC/DMC/12-Crown-4 electrolyte is
+relatively dense and smooth after cycling. Moreover, the thickness of
+corrosion depth of the Li metal anode in FEC/DMC/12-Crown-4 elec­
+trolyte is much less than that in EC/DMC and FEC/DMC electrolyte,
+indicating the effective suppression of dendrite formation and electro­
+lyte decomposition. In addition to cycling performance, the Li||LFP cell
+with FEC/DMC/12-Crown-4 electrolyte also exhibits promising rate
+capability owing to the enhanced interfacial stability (Fig. S19d). The
+discharge capacity above 127 and 71 mAh g− 1can still be delivered at
+the high rate of 1C (2.13 mA cm− 2) and 2C rate (4.25 mA cm− 2)
+respectively, much higher than that of FEC/DMC electrolyte (113 and 36
+
+4. Conclusion
+In summary, we have demonstrated that crown ethers could act as
+efficient leveling additives for dendrite-free lithium deposition in LMBs.
+A current density distribution model based on the region-specific resis­
+tance is proposed, and the leveling mechanism is elucidated by the
+electron affinity and LUMO energy level calculations. The ion–additive
+complexes exhibit lower electron-accepting ability compared to the
+ion–solvent complexes and could effectively regulate the local polari­
+zation resistance, leading to a transition of Li deposition behavior from
+self-amplification to a self-leveling. Furthermore, a self-leveling elec­
+trolyte comprising FEC solvent and 12-Crown-4 additive has been
+developed based on their combinational effects, where FEC facilitates
+the formation of a robust SEI film and 12-Crown-4 additive produces a
+leveling effect during Li deposition. Dense Li morphology and dendritefree deposition, as well as enhanced SEI surface chemistry and interfa­
+cial stability has been achieved in such electrolyte, which could signif­
+icantly alleviate the electrolyte decomposition and electrode
+degradation during the Li plating/stripping process. As a consequence, a
+high average Coulombic efficiency of 97.24% for Li||Cu cell, as well as
+superior cycling stability over 250 h for Li||Li symmetric cell has been
+observed. Moreover, in the Li metal full cell assembled with highloading LiFePO4 (12.5 mg cm− 2), a 98% capacity retention along with
+alleviated increase of voltage hysteresis has been accomplished after
+100 cycles at 0.5C. This work demonstrates an effective and facile
+approach to suppress Li dendrite growth, while the self-leveling elec­
+trolyte strategy provides a complement to the existing knowledge
+framework on designing the next-generation LMBs.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+This work received financial support from the National Key R&D
+Program of China (2018YFB0905600) and the Science and Technology
+Bureau of Shenzhen (Grant No. JCYJ20170306171540744).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.cej.2021.129494.
+References
+[1] J. Liu, Z. Bao, Y.i. Cui, E.J. Dufek, J.B. Goodenough, P. Khalifah, Q. Li, B.Y. Liaw,
+P. Liu, A. Manthiram, Y.S. Meng, V.R. Subramanian, M.F. Toney, V.
+V. Viswanathan, M.S. Whittingham, J. Xiao, W.u. Xu, J. Yang, X.-Q. Yang, J.G. Zhang, Pathways for practical high-energy long-cycling lithium metal batteries,
+Nat. Energy 4 (3) (2019) 180–186.
+[2] W.u. Xu, J. Wang, F. Ding, X. Chen, E. Nasybulin, Y. Zhang, J.-G. Zhang, Lithium
+metal anodes for rechargeable batteries, Energy Environ. Sci. 7 (2) (2014)
+513–537.
+
+9
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+[3] D. Lin, Y. Liu, Y.i. Cui, Reviving the lithium metal anode for high-energy batteries,
+Nat. Nanotechnol. 12 (3) (2017) 194–206.
+[4] R. Van Noorden, A Better Battery, Nature 507 (2014) 26–28.
+[5] C. Xia, C.Y. Kwok, L.F. Nazar, A high-energy-density lithium-oxygen battery based
+on a reversible four-electron conversion to lithium oxide, Science 361 (6404)
+(2018) 777–781.
+[6] P.G. Bruce, S.A. Freunberger, L.J. Hardwick, J.-M. Tarascon, Li-O2 and Li-S
+batteries with high energy storage, Nat. Mater. 11 (1) (2012) 19–29.
+[7] J.-L. Ma, F.-l. Meng, Y. Yu, D.-P. Liu, J.-M. Yan, Y.u. Zhang, X.-b. Zhang, Q. Jiang,
+Prevention of dendrite growth and volume expansion to give high-performance
+aprotic bimetallic Li-Na alloy-O2 batteries, Nat. Chem. 11 (1) (2019) 64–70.
+[8] X.-B. Cheng, R. Zhang, C.-Z. Zhao, Q. Zhang, Toward safe lithium metal anode in
+rechargeable batteries: a review, Chem. Rev. 117 (15) (2017) 10403–10473.
+[9] Y. Guo, H. Li, T. Zhai, Reviving lithium-metal anodes for next-generation highenergy batteries, Adv. Mater. 29 (2017) 1700007.
+[10] C. Yang, K. Fu, Y. Zhang, E. Hitz, L. Hu, Protected lithium-metal anodes in
+batteries: from liquid to solid, Adv. Mater. 29 (2017) 1701169.
+[11] X.B. Cheng, R. Zhang, C.Z. Zhao, F. Wei, J.G. Zhang, Q. Zhang, A review of solid
+electrolyte interphases on lithium metal anode, Adv. Sci. 3 (2016) 1500213.
+[12] R. Xu, X.-Q. Zhang, X.-B. Cheng, H.-J. Peng, C.-Z. Zhao, C. Yan, J.-Q. Huang,
+Artificial soft-rigid protective layer for dendrite-free lithium metal anode, Adv.
+Funct. Mater. 28 (2018) 1705838.
+[13] C. Yan, R. Xu, Y. Xiao, J.F. Ding, L. Xu, B.Q. Li, J.Q. Huang, Toward critical
+electrode/electrolyte interfaces in rechargeable batteries, Adv. Funct. Mater. 30
+(2020) 1909887.
+[14] J. Steiger, D. Kramer, R. Mönig, Mechanisms of dendritic growth investigated by in
+situ light microscopy during electrodeposition and dissolution of lithium, J. Power
+Sources 261 (2014) 112–119.
+[15] C. Yan, H. Yuan, H.S. Park, J.-Q. Huang, Perspective on the critical role of interface
+for advanced batteries, J. Energy Chem. 47 (2020) 217–220.
+[16] F. Ding, W.u. Xu, G.L. Graff, J. Zhang, M.L. Sushko, X. Chen, Y. Shao, M.
+H. Engelhard, Z. Nie, J. Xiao, X. Liu, P.V. Sushko, J. Liu, J.-G. Zhang, Dendrite-free
+lithium deposition via self-healing electrostatic shield mechanism, J. Am. Chem.
+Soc. 135 (11) (2013) 4450–4456.
+[17] Q. Wang, C. Yang, J. Yang, K. Wu, C. Hu, J. Lu, W. Liu, X. Sun, J. Qiu, H. Zhou,
+Dendrite-free lithium deposition via a superfilling mechanism for highperformance Li-metal batteries, Adv. Mater. 31 (2019) 1903248.
+[18] W. Li, H. Yao, K. Yan, G. Zheng, Z. Liang, Y.-M. Chiang, Y.i. Cui, The synergetic
+effect of lithium polysulfide and lithium nitrate to prevent lithium dendrite growth,
+Nat. Commun. 6 (1) (2015), https://doi.org/10.1038/ncomms8436.
+[19] D. Wang, H. Liu, M. Li, D. Xia, J. Holoubek, Z. Deng, M. Yu, J. Tian, Z. Shan, S.
+P. Ong, P. Liu, Z. Chen, A long-lasting dual-function electrolyte additive for stable
+lithium metal batteries, Nano Energy 75 (2020) 104889, https://doi.org/10.1016/
+j.nanoen.2020.104889.
+[20] T. Wang, Y. Li, J. Zhang, K. Yan, P. Jaumaux, J. Yang, C. Wang, D. Shanmukaraj,
+B. Sun, M. Armand, Y. Cui, G. Wang, Immunizing lithium metal anodes against
+dendrite growth using protein molecules to achieve high energy batteries, Nat.
+Commun. 11 (2020) 5429.
+[21] Y. Yu, G. Huang, J.-Y. Du, J.-Z. Wang, Y. Wang, Z.-J. Wu, X.-B. Zhang,
+A renaissance of N, N-dimethylacetamide-based electrolytes to promote the cycling
+stability of Li–O2 batteries, Energy Environ. Sci. 13 (9) (2020) 3075–3081.
+[22] Y. Yu, X.-B. Zhang, In Situ Coupling of colloidal silica and Li salt anion toward
+stable Li anode for long-cycle-life Li-O2 batteries, Matter 1 (4) (2019) 881–892.
+[23] R. Xu, X. Shen, X.-X. Ma, C. Yan, X.-Q. Zhang, X. Chen, J.-F. Ding, J.-Q. Huang,
+Identifying the critical anion-cation coordination to regulate the electric double
+layer for an efficient lithium-metal anode interface, Angew. Chem., Int. Ed. 60 (8)
+(2021) 4215–4220.
+[24] X.-B. Cheng, T.-Z. Hou, R. Zhang, H.-J. Peng, C.-Z. Zhao, J.-Q. Huang, Q. Zhang,
+Dendrite-free lithium deposition induced by uniformly distributed lithium ions for
+efficient lithium metal batteries, Adv. Mater. 28 (15) (2016) 2888–2895.
+[25] N.-W. Li, Y.-X. Yin, C.-P. Yang, Y.-G. Guo, An artificial solid electrolyte interphase
+layer for stable lithium metal anodes, Adv. Mater. 28 (9) (2016) 1853–1858.
+[26] Z. Peng, N. Zhao, Z. Zhang, H. Wan, H. Lin, M. Liu, C. Shen, H. He, X. Guo, J.G. Zhang, D. Wang, Stabilizing Li/electrolyte interface with a transplantable
+protective layer based on nanoscale LiF domains, Nano Energy 39 (2017) 662–672.
+[27] C. Cui, C. Yang, N. Eidson, J. Chen, F. Han, L. Chen, C. Luo, P.F. Wang, X. Fan,
+C. Wang, A highly reversible, dendrite-free lithium metal anode enabled by a
+lithium-fluoride-enriched interphase, Adv. Mater. 32 (2020) 1906427.
+[28] X. Liu, J. Liu, T. Qian, H. Chen, C. Yan, Novel organophosphate-derived duallayered interface enabling air-stable and dendrite-free lithium metal anode, Adv.
+Mater. 32 (2020) 1902724.
+[29] Y. Liang, Y.e. Xiao, C. Yan, R. Xu, J.-F. Ding, J.i. Liang, H.-J. Peng, H. Yuan, J.Q. Huang, A bifunctional ethylene-vinyl acetate copolymer protective layer for
+dendrites-free lithium metal anodes, J. Energy Chem. 48 (2020) 203–207.
+[30] Y. Yu, Y.-B. Yin, J.-L. Ma, Z.-W. Chang, T. Sun, Y.-H. Zhu, X.-Y. Yang, T. Liu, X.B. Zhang, Designing a self-healing protective film on a lithium metal anode for
+long-cycle-life lithium-oxygen batteries, Energy Storage Mater. 18 (2019)
+382–388.
+[31] Y. Yu, G. Huang, J.Z. Wang, K. Li, J.L. Ma, X.B. Zhang, In situ designing a gradient
+Li+ capture and quasi-spontaneous diffusion anode protection layer toward longlife Li-O2 batteries, Adv. Mater. 32 (2020) 2004157.
+[32] S. Choudhury, R. Mangal, A. Agrawal, L.A. Archer, A highly reversible roomtemperature lithium metal battery based on crosslinked hairy nanoparticles, Nat.
+Commun. 6 (1) (2015), https://doi.org/10.1038/ncomms10101.
+[33] R. Khurana, J.L. Schaefer, L.A. Archer, G.W. Coates, Suppression of lithium
+dendrite growth using cross-linked polyethylene/poly(ethylene oxide) electrolytes:
+
+a new approach for practical lithium-metal polymer batteries, J. Am. Chem. Soc.
+136 (2014) 7395–7402.
+[34] C.-Z. Zhao, P.-Y. Chen, R. Zhang, X. Chen, B.-Q. Li, X.-Q. Zhang, X.-B. Cheng,
+Q. Zhang, An ion redistributor for dendrite-free lithium metal anodes, Sci. Adv. 4
+(11) (2018) eaat3446, https://doi.org/10.1126/sciadv.aat3446.
+[35] K. Liu, D. Zhuo, H.-W. Lee, W. Liu, D. Lin, Y. Lu, Y.i. Cui, Extending the life of
+lithium-based rechargeable batteries by reaction of lithium dendrites with a novel
+silica nanoparticle sandwiched separator, Adv. Mater. 29 (4) (2017) 1603987,
+https://doi.org/10.1002/adma.v29.410.1002/adma.201603987.
+[36] J. Liang, Q. Chen, X. Liao, P. Yao, B. Zhu, G. Lv, X. Wang, X.i. Chen, J. Zhu, A nanoshield design for separators to resist dendrite formation in lithium-metal batteries,
+Angew. Chem., Int. Ed. 59 (16) (2020) 6561–6566.
+[37] Y. Lu, Z. Tu, L.A. Archer, Stable lithium electrodeposition in liquid and nanoporous
+solid electrolytes, Nat. Mater. 13 (10) (2014) 961–969.
+[38] S. Choudhury, L.A. Archer, Lithium fluoride additives for stable cycling of lithium
+batteries at high current densities, Adv. Electron. Mater. 2 (2) (2016) 1500246,
+https://doi.org/10.1002/aelm.201500246.
+[39] X.-Q. Zhang, X.-B. Cheng, X. Chen, C. Yan, Q. Zhang, Fluoroethylene carbonate
+additives to render uniform Li deposits in lithium metal batteries, Adv. Funct.
+Mater. 27 (2017) 1605989.
+[40] X.-Q. Zhang, X. Chen, X.-B. Cheng, B.-Q. Li, X. Shen, C. Yan, J.-Q. Huang, Q. Zhang,
+Highly stable lithium metal batteries enabled by regulating the solvation of lithium
+ions in nonaqueous electrolytes, Angew. Chem. Int. Ed. 57 (19) (2018) 5301–5305.
+[41] C. Yan, X.-B. Cheng, Y. Tian, X. Chen, X.-Q. Zhang, W.-J. Li, J.-Q. Huang, Q. Zhang,
+Dual-layered film protected lithium metal anode to enable dendrite-free lithium
+deposition, Adv. Mater. 30 (25) (2018) 1707629, https://doi.org/10.1002/adma.
+v30.2510.1002/adma.201707629.
+[42] L. Suo, W. Xue, M. Gobet, S.G. Greenbaum, C. Wang, Y. Chen, W. Yang, Y. Li, J.
+u. Li, Fluorine-donating electrolytes enable highly reversible 5-V-class Li metal
+batteries, Proc. Natl. Acad. Sci. USA 115 (6) (2018) 1156–1161.
+[43] L.u. Yu, S. Chen, H. Lee, L. Zhang, M.H. Engelhard, Q. Li, S. Jiao, J. Liu, W.u. Xu, J.G. Zhang, A localized high-concentration electrolyte with optimized solvents and
+lithium difluoro(oxalate)borate additive for stable lithium metal batteries, ACS
+Energy Lett. 3 (9) (2018) 2059–2067.
+[44] J.-Y. Hwang, S.-J. Park, C.S. Yoon, Y.-K. Sun, Customizing a Li–metal battery that
+survives practical operating conditions for electric vehicle applications, Energy
+Environ. Sci. 12 (7) (2019) 2174–2184.
+[45] J. Zheng, M.H. Engelhard, D. Mei, S. Jiao, B.J. Polzin, J.-G. Zhang, W. Xu,
+Electrolyte additive enabled fast charging and stable cycling lithium metal
+batteries, Nat. Energy 2 (2017) 17012.
+[46] X. Li, J. Zheng, X. Ren, M.H. Engelhard, W. Zhao, Q. Li, J.-G. Zhang, W. Xu,
+Dendrite-free and performance-enhanced lithium metal batteries through
+optimizing solvent compositions and adding combinational additives, Adv. Energy
+Mater. 8 (2018) 1703022.
+[47] J. Kelly, C. Surisetty, D. Canaperi, Experimental study of copper leveling additives
+and their wafer and pattern-scale effect on copper planarization, C. R. Chim. 16 (1)
+(2013) 15–20.
+[48] J.J. Kelly, C. Tian, A.C. West, Leveling and microstructural effects of additives for
+copper electrodeposition, J. Electrochem. Soc. 146 (7) (1999) 2540–2545.
+[49] E. Sezer, B. Ustamehmetoğlu, R. Katırcı, Effects of a N, N-dimethyl-N-2-propenyl-2propene-1-ammonium chloride-2-propenamide copolymer on bright nickel plating,
+Surf. Coat. Technol. 213 (2012) 253–263.
+[50] U.S. Mohanty, B.C. Tripathy, P. Singh, A. Keshavarz, S. Iglauer, Roles of organic
+and inorganic additives on the surface quality, morphology, and polarization
+behavior during nickel electrodeposition from various baths: a review, J. Appl.
+Electrochem. 49 (9) (2019) 847–870.
+[51] S.-J. Kim, H.-T. Kim, S.-M. Park, Effects of o-Vanillin as a Brightener on Zinc
+Electrodeposition at Iron Electrodes, J. Electrochem. Soc. 151 (12) (2004) C850,
+https://doi.org/10.1149/1.1814033.
+[52] J.L. Ortiz-Aparicio, Y. Meas, G. Trejo, R. Ortega, T.W. Chapman, E. Chainet, Effects
+of organic additives on zinc electrodeposition from alkaline electrolytes, J. Appl.
+Electrochem. 43 (3) (2013) 289–300.
+[53] J. Lu, D. Dreisinger, T. Glück, Manganese electrodeposition — A literature review,
+Hydrometallurgy 141 (2014) 105–116.
+[54] F. Zheng, The effects of Zn2+ and Polyacrylamide (PAM) on the Electrodeposition
+of Manganese from Non-Selenium Sulfate Solutions, Int. J. Electrochem. Sci.
+(2018) 1879–1892, https://doi.org/10.20964/2018.02.17.
+[55] A. Liu, X. Ren, J. Zhang, G. Yuan, P. Yang, J. Zhang, M. An, A composite additive
+used for an excellent new cyanide-free silver plating bath, New J. Chem. 39 (4)
+(2015) 2409–2412.
+[56] A. Liu, X. Ren, C. Wang, J. Zhang, C. Du, R. Han, M. An, DMH and NA–based
+cyanide-free silver electroplating bath: a promising alternative to cyanide ones in
+microelectronics, Ionics 27 (1) (2021) 417–422.
+[57] M. Haataja, D.J. Srolovitz, A.B. Bocarsly, Morphological Stability during
+Electrodeposition, J. Electrochem. Soc. 150 (10) (2003) C708, https://doi.org/
+10.1149/1.1602456.
+[58] M. Frisch, G. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, G.
+Scalmani, V. Barone, B. Mennucci, G. Petersson, gaussian 09, Revision d. 01,
+Gaussian, Inc., Wallingford CT 201 (2009).
+[59] Y. Zhao, D.G. Truhlar, The M06 suite of density functionals for main group
+thermochemistry, thermochemical kinetics, noncovalent interactions, excited
+states, and transition elements: two new functionals and systematic testing of four
+M06-class functionals and 12 other functionals, Theor. Chem. Acc. 120 (2008)
+215–241.
+[60] A.V. Marenich, C.J. Cramer, D.G. Truhlar, Universal solvation model based on
+solute electron density and on a continuum model of the solvent defined by the
+
+10
+
+L. Xu et al.
+
+Chemical Engineering Journal 419 (2021) 129494
+
+bulk dielectric constant and atomic surface tensions, J. Phys. Chem. B 113 (18)
+(2009) 6378–6396.
+[61] H. Hoiland, J.A. Ringseth, T.S. Brun, Cation-Crown Ether Complex-Formation in
+Water .2. Alkali and Alkaline-Earth Cations and 12-Crown-4, 15-Crown-5, and 18Crown-6, J. Solut. Chem. 8 (1979) 779-792.
+[62] S.E. Hill, D. Feller, E.D. Glendening, Theoretical study of cation/ether complexes:
+Alkali metal cations with 1,2-dimethoxyethane and 12-crown-4, J. Phys. Chem. A
+102 (1998) 3813–3819.
+
+[63] K.N. Wood, E. Kazyak, A.F. Chadwick, K.H. Chen, J.G. Zhang, K. Thornton, N.
+P. Dasgupta, Dendrites and pits: untangling the complex behavior of lithium metal
+anodes through operando video microscopy, ACS Central Sci. 2 (2016) 790–801.
+[64] H. Lee, H.-S. Lim, X. Ren, L.u. Yu, M.H. Engelhard, K.S. Han, J. Lee, H.-T. Kim,
+J. Xiao, J. Liu, W.u. Xu, J.-G. Zhang, Detrimental effects of chemical crossover from
+the lithium anode to cathode in rechargeable lithium metal batteries, ACS Energy
+Lett. 3 (12) (2018) 2921–2930.
+
+11
+
+

@@ -1,0 +1,1490 @@
+{
+  "schema_version": "0.2.0",
+  "source_image": "/Users/yang/Documents/Intern/LabAlly/second-takehome-HW/Example Lab Notebook Page.jpg",
+  "page_geometry": {
+    "image_width_px": 2160,
+    "image_height_px": 2880,
+    "dark_pixel_threshold": 173,
+    "content_bbox_px": [
+      0,
+      0,
+      2159,
+      2879
+    ],
+    "estimated_margin_x_px": 311,
+    "horizontal_rule_y_px": [
+      234,
+      268,
+      348,
+      510,
+      591,
+      671,
+      752,
+      832,
+      895,
+      912,
+      994,
+      1032,
+      1074,
+      1155,
+      1236,
+      1318,
+      1399,
+      1480,
+      1562,
+      1642,
+      1652,
+      1724,
+      1806,
+      1886,
+      1942,
+      1968,
+      2048,
+      2127,
+      2208,
+      2288,
+      2375,
+      2456,
+      2706
+    ]
+  },
+  "metadata": {
+    "page": "57",
+    "date_written": "June 4",
+    "continued_from_page": null,
+    "project": "Li electrodeposition - glyme electrolytes"
+  },
+  "goal": "Screen electrolyte 240604-B for stable Li plating",
+  "solution_preparation": {
+    "electrolyte_id": "240604-B",
+    "salt": {
+      "name": "LiTFSI",
+      "concentration": {
+        "value": 1.0,
+        "unit": "M"
+      }
+    },
+    "solvent": {
+      "components": [
+        {
+          "name": "diglyme",
+          "ratio": 4
+        },
+        {
+          "name": "EtOH",
+          "ratio": 1
+        }
+      ],
+      "basis": "v/v"
+    },
+    "total_volume": {
+      "value": 20.0,
+      "unit": "mL"
+    },
+    "additive": {
+      "name": "12-crown-4",
+      "amount": {
+        "value": 5.0,
+        "unit": "mol%"
+      }
+    },
+    "mixing": {
+      "stir_time": {
+        "value": 20.0,
+        "unit": "min"
+      }
+    },
+    "target_temperature": {
+      "value": 30.0,
+      "unit": "°C"
+    }
+  },
+  "apparatus": {
+    "working_electrode": {
+      "description": "glassy C RDE (0.3 cm)",
+      "material": "glassy carbon",
+      "geometry": "RDE",
+      "area": {
+        "value": 0.3,
+        "unit": "cm^2"
+      }
+    },
+    "counter_electrode": "Li foil",
+    "reference_electrode": "Ag/AgCl",
+    "glovebox": {
+      "temperature": {
+        "value": 22.4,
+        "unit": "°C"
+      },
+      "water": {
+        "operator": "<",
+        "value": 1.0,
+        "unit": "ppm"
+      }
+    }
+  },
+  "deposition_run": {
+    "run_id": "240604-B1",
+    "potential": {
+      "value": -0.45,
+      "unit": "V"
+    },
+    "potential_reference": "Ag/AgCl",
+    "duration": {
+      "value": 90.0,
+      "unit": "min"
+    },
+    "rotation": {
+      "value": 1600.0,
+      "unit": "rpm"
+    },
+    "current_density": {
+      "value": 0.5,
+      "unit": "mA/cm^2"
+    },
+    "electrode_area": {
+      "value": 0.3,
+      "unit": "cm^2"
+    },
+    "derived_current": {
+      "value": 0.00015,
+      "unit": "A"
+    },
+    "charge": {
+      "value": 0.81,
+      "unit": "C"
+    },
+    "faradaic_calculation": {
+      "moles_Li": {
+        "value": 8.4e-06,
+        "unit": "mol"
+      },
+      "mass_Li": {
+        "value": 5.8e-05,
+        "unit": "g"
+      },
+      "electron_stoichiometry": "1 e- per Li+"
+    }
+  },
+  "chemistry": {
+    "compounds": [
+      {
+        "name": "LiTFSI",
+        "expanded_name": "lithium bis(trifluoromethanesulfonyl)imide",
+        "formula": "LiC2F6NO4S2",
+        "smiles": "[Li+].[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F"
+      },
+      {
+        "name": "diglyme",
+        "expanded_name": "bis(2-methoxyethyl) ether",
+        "formula": "C6H14O3",
+        "smiles": "COCCOCCOC"
+      },
+      {
+        "name": "EtOH",
+        "expanded_name": "ethanol",
+        "formula": "C2H6O",
+        "smiles": "CCO"
+      },
+      {
+        "name": "12-crown-4",
+        "formula": "C8H16O4",
+        "smiles": "C1COCCOCCOCCO1"
+      },
+      {
+        "name": "Ag/AgCl",
+        "role": "reference electrode"
+      },
+      {
+        "name": "Li foil",
+        "formula": "Li",
+        "role": "counter electrode"
+      }
+    ],
+    "drawn_structures": [
+      {
+        "label": "[Li(12-crown-4)]+",
+        "region": "chemistry",
+        "type": "hand_drawn_coordination_complex",
+        "extraction_method": "domain_template_from_hand_drawn_structure_and_label",
+        "components": [
+          "Li+",
+          "12-crown-4"
+        ],
+        "formula": "LiC8H16O4+",
+        "canonical_components": [
+          {
+            "name": "Li+",
+            "formula": "Li+",
+            "role": "coordinated cation"
+          },
+          {
+            "name": "12-crown-4",
+            "formula": "C8H16O4",
+            "smiles": "C1COCCOCCOCCO1"
+          }
+        ],
+        "interpretation": "Lithium cation coordinated inside 12-crown-4.",
+        "evidence": "Macrocycle drawing with Li+ inside and bracketed [Li(12-crown-4)]+ label.",
+        "confidence": 0.74,
+        "limitation": "Interpreted as a known coordination complex; not full atom-by-atom graph recognition."
+      },
+      {
+        "label": "LiTFSI",
+        "region": "chemistry",
+        "type": "hand_drawn_salt_structure",
+        "extraction_method": "domain_template_from_hand_drawn_structure_and_label",
+        "components": [
+          "Li+",
+          "TFSI-"
+        ],
+        "formula": "LiC2F6NO4S2",
+        "smiles": "[Li+].[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F",
+        "interpretation": "TFSI anion drawn with two SO2CF3 groups and Li+ ion pair.",
+        "evidence": "Drawing contains N(SO2CF3)2 motif and LiTFSI label.",
+        "confidence": 0.8,
+        "limitation": "Interpreted through chemistry-specific template/label evidence; not full graph OCR."
+      },
+      {
+        "label": "diglyme",
+        "region": "recipe",
+        "type": "hand_drawn_solvent_structure",
+        "extraction_method": "domain_template_from_hand_drawn_structure_and_recipe_context",
+        "components": [
+          "ether chain"
+        ],
+        "formula": "C6H14O3",
+        "smiles": "COCCOCCOC",
+        "interpretation": "Linear glyme solvent sketch associated with diglyme.",
+        "evidence": "Ether-chain drawing appears directly above the diglyme recipe line.",
+        "confidence": 0.67,
+        "limitation": "Recognized as a known solvent sketch in context; not general molecule graph extraction."
+      }
+    ],
+    "reaction": {
+      "scheme": "[Li(12-crown-4)]+ + e- -> Li(s) + 12-crown-4",
+      "supporting_ions": [
+        "TFSI-"
+      ],
+      "applied_potential": null,
+      "electron_stoichiometry": "1 e- per Li+",
+      "interpretation": "Cathodic reduction/plating of Li+ to lithium metal from the crown/glyme electrolyte."
+    },
+    "capability_note": {
+      "achieved": "Extracts and normalizes the specific hand-drawn chemistry on this page as known chemical entities with formulas/SMILES/provenance.",
+      "not_achieved": "Does not perform general atom-by-atom molecular graph recognition for arbitrary unknown hand-drawn structures."
+    }
+  },
+  "experiment_interpretation": {
+    "objective": "Screen electrolyte 240604-B for stable Li plating",
+    "inferred_purpose": "Screen electrolyte 240604-B as a 12-crown-4 leveling-additive system for lithium metal electrodeposition at 30°C.",
+    "reference_paper_context": {
+      "source": "reference-paper/Adv Funct Materials - 2020 - Wang - Electrolytes Enriched by Crown Ethers for Lithium Metal Batteries.pdf",
+      "title": "Electrolytes Enriched by Crown Ethers for Lithium Metal Batteries",
+      "doi": "10.1002/adfm.202002578",
+      "supporting_sources": [
+        {
+          "source": "reference-paper/1-s2.0-S1385894721010810-main.pdf",
+          "title": "Self-leveling electrolyte enabled dendrite-free lithium deposition for safer and stable lithium metal batteries",
+          "doi": "10.1016/j.cej.2021.129494"
+        },
+        {
+          "source": "reference-paper/1-s2.0-S157266572100182X-main.pdf",
+          "title": "The investigation for electrodeposition behavior of lithium metal in a crown ether/propylene carbonate electrolyte",
+          "doi": "10.1016/j.jelechem.2021.115156"
+        }
+      ],
+      "relevant_findings": [
+        "Crown ethers are studied as electrolyte additives that coordinate Li+ and regulate the Li+ solvation/interfacial environment.",
+        "The paper reports smoother Li deposition and reduced dendrite growth when appropriate crown ether additives are used.",
+        "12-crown-4 and 15-crown-5 both coordinate Li+ through ether oxygens, but 15-crown-5 is reported as stronger and more effective than 12-crown-4 in that carbonate-electrolyte study.",
+        "The proposed benefit is formation of a smoother/dense SEI and more homogeneous Li plating rather than simply increasing the quantity of deposited Li."
+      ],
+      "mechanistic_findings": [
+        "Crown ethers coordinate Li+ through cyclic ether oxygens and shift Li+ away from a purely solvent-dominated solvation shell.",
+        "Li+/crown-ether complexes can reduce Li+ crowding at protrusions or dendrite tips, which changes nucleation and slows preferential tip growth.",
+        "The self-leveling model says Li+/12-crown-4 complexes are harder to reduce than Li+/solvent complexes, so they raise local polarization resistance at high-field tips and redirect plating toward flatter regions.",
+        "12-crown-4 can improve Li deposit smoothness, but the reference papers disagree on long-term efficiency depending on electrolyte, crown concentration, and SEI chemistry.",
+        "Fluorinated electrolyte components or LiF-rich SEI formation are often part of the best-performing literature systems; the notebook does not directly measure SEI composition."
+      ],
+      "quantitative_reference_points": [
+        "The Adv. Funct. Mater. paper reports Li+/12-crown-4 binding energy near -0.83 eV, weaker than Li+/15-crown-5 near -1.28 eV.",
+        "The Chemical Engineering Journal paper reports an optimized FEC/DMC/12-crown-4 system with about 97.24% Li||Cu Coulombic efficiency and dense dendrite-free deposition.",
+        "The Journal of Electroanalytical Chemistry paper reports about 0.2 M 12-crown-4 as a morphology optimum in LiPF6/propylene carbonate at 2.0 mA/cm^2 and 1.0 mAh/cm^2, while also warning that Coulombic efficiency can decrease."
+      ],
+      "reference_conditions": [
+        "Adv. Funct. Mater.: 1.0 m LiPF6 in EC/DMC with 1.0-4.0 wt% crown ether additives, Li|Li and full-cell battery tests.",
+        "Chemical Engineering Journal: 1.0 M LiPF6 in FEC/DMC with about 1 wt% 12-crown-4, Li||Cu, Li||Li, and Li||LFP cells.",
+        "Journal of Electroanalytical Chemistry: 1.0 M LiPF6 in propylene carbonate with 0.1-0.5 M 12-crown-4 or 15-crown-5 in electrodeposition and Li||Cu tests."
+      ],
+      "relevance_to_this_note": [
+        "The notebook uses 12-crown-4 as an additive in a LiTFSI glyme/EtOH electrolyte, so the likely experimental question is whether crown-ether Li+ coordination improves Li plating stability.",
+        "The notebook's film appearance, XRD notes, and Faraday calculation are checks of whether Li actually plated and what deposit quality may have resulted."
+      ],
+      "translation_to_this_note": [
+        "The notebook should be interpreted as a 12-crown-4 leveling-additive screen, not as a finished battery-cell cycling protocol.",
+        "The expected success signal is a smoother, more uniform Li-containing film versus a crown-free control, not a larger Faraday-predicted Li mass.",
+        "Because this page uses LiTFSI in diglyme:EtOH, potentiostatic RDE deposition, and 5 mol% 12-crown-4, the literature supports a hypothesis but does not provide a direct recipe or direct pass/fail threshold."
+      ],
+      "caveat": "The reference systems are not identical to this notebook: they mainly use LiPF6 carbonate or FEC/DMC electrolytes, coin/optical cells, and galvanostatic battery tests, while the notebook screens 12-crown-4 in LiTFSI/diglyme:EtOH using potentiostatic RDE deposition."
+    },
+    "reference_supported_hypothesis": "Based on the crown-ether papers, the experiment is likely testing whether 5 mol% 12-crown-4 forms Li+/crown complexes in the LiTFSI/diglyme:EtOH electrolyte strongly enough to redistribute Li+ near the electrode, slow preferential growth at protrusions, and produce smoother, less dendritic Li plating. The literature also warns that the benefit depends on solvent, SEI chemistry, and crown concentration.",
+    "chemical_rationale": "LiTFSI supplies Li+ in a glyme/ethanol electrolyte. Diglyme and 12-crown-4 both coordinate Li+, but the cyclic ether can form a [Li(12-crown-4)]+-type complex. Reference papers suggest that such complexes can act as leveling species: they are less readily reduced than solvent-bound Li+, accumulate more at high-field tips, and increase local polarization resistance there. The -0.45 V vs Ag/AgCl bias then reduces Li+ to Li(s) on the glassy-carbon RDE, while 1600 rpm rotation makes mass transport more reproducible.",
+    "reaction_basis": {
+      "scheme": "[Li(12-crown-4)]+ + e- -> Li(s) + 12-crown-4",
+      "supporting_ions": [
+        "TFSI-"
+      ],
+      "applied_potential": null,
+      "electron_stoichiometry": "1 e- per Li+",
+      "interpretation": "Cathodic reduction/plating of Li+ to lithium metal from the crown/glyme electrolyte."
+    },
+    "procedure_summary": [
+      "Prepare 1 M LiTFSI in diglyme:EtOH (4:1 v/v), total volume 20 mL.",
+      "Add 5 mol% 12-crown-4 and stir for 20 min.",
+      "Run Li electrodeposition on glassy-carbon RDE with Li foil counter electrode and Ag/AgCl reference.",
+      "Apply -0.45 V vs Ag/AgCl for 90 min at 1600 rpm.",
+      "Track electrode temperature on a 30°C hot plate and record film/XRD observations."
+    ],
+    "formula_based_prediction": {
+      "current_relation": "I = J x A",
+      "charge_relation": "Q = I x t",
+      "faraday_relation": "n(Li) = Q / F for 1 e- per Li+",
+      "mass_relation": "m(Li) = n x 6.94 g/mol",
+      "derived_current": {
+        "value": 0.00015,
+        "unit": "A"
+      },
+      "charge": {
+        "value": 0.81,
+        "unit": "C"
+      },
+      "predicted_moles_Li": {
+        "value": 8.4e-06,
+        "unit": "mol"
+      },
+      "predicted_mass_Li": {
+        "value": 5.8e-05,
+        "unit": "g"
+      },
+      "interpretation": "The written Faraday-law equations predict the amount of Li metal expected to plate from the applied current and deposition time. They predict quantity, not whether the film is smooth, dendrite-free, or chemically clean."
+    },
+    "what_was_actually_happening": {
+      "plain_language": "The researcher prepared a 12-crown-4-containing LiTFSI/glyme electrolyte, then forced Li+ reduction at a glassy-carbon rotating disk electrode to plate a small, calculated amount of lithium metal while checking whether the additive/temperature condition produced a usable film.",
+      "mechanistic_sequence": [
+        "LiTFSI dissolves to provide Li+ and TFSI- in the diglyme/EtOH solvent mixture.",
+        "12-crown-4 can bind/coordinate Li+, forming a [Li(12-crown-4)]+-type complex drawn in the note.",
+        "Reference papers suggest Li+/12-crown-4 complexes can function as leveling species by slowing Li reduction at protruding high-field growth sites.",
+        "At -0.45 V vs Ag/AgCl, electrons reduce solvated or dissociated Li+ to Li metal at the working electrode.",
+        "RDE rotation at 1600 rpm helps make mass transport more reproducible during plating.",
+        "The written Faraday calculation predicts about 8.4e-6 mol Li, or about 5.8e-5 g Li, from the applied current and time.",
+        "The temperature table checks whether the hot plate/electrode environment reaches and holds the target 30°C condition.",
+        "The grey/dull film and XRD notes are post-deposition evidence used to judge deposit formation and quality."
+      ],
+      "expected_if_hypothesis_is_true": [
+        "More uniform, dense Li-containing film than a crown-free control.",
+        "Less mossy or dendritic Li morphology under microscopy.",
+        "A Li-containing deposit close to the Faraday-predicted loading without severe side-reaction products.",
+        "More stable deposition behavior across repeated runs or longer cycling.",
+        "If the solvent/SEI chemistry is favorable, literature would also predict a more protective SEI; this page does not directly test that."
+      ],
+      "observed_on_page": [
+        "A grey/dull film was observed, which is consistent with a deposit but not diagnostic of dendrite-free morphology.",
+        "XRD notes record a low-intensity main peak at 2θ = 2.1° and a shoulder at 2θ = 4.7°.",
+        "The note calculates a small plated Li amount from current, time, and Faraday's law."
+      ],
+      "assessment": "The page documents a screening run for a 12-crown-4 Li-plating additive and confirms that deposition was attempted under defined electrochemical and thermal conditions. The observations suggest film formation, but they do not prove stable, dendrite-free Li plating. A crown-free control, SEM/optical morphology, XPS/SEI analysis, cycling, and stronger phase assignment would be needed to validate the reference-paper hypothesis."
+    },
+    "conditions": {
+      "target_temperature": {
+        "value": 30.0,
+        "unit": "°C"
+      },
+      "electrolyte": {
+        "electrolyte_id": "240604-B",
+        "salt": {
+          "name": "LiTFSI",
+          "concentration": {
+            "value": 1.0,
+            "unit": "M"
+          }
+        },
+        "solvent": {
+          "components": [
+            {
+              "name": "diglyme",
+              "ratio": 4
+            },
+            {
+              "name": "EtOH",
+              "ratio": 1
+            }
+          ],
+          "basis": "v/v"
+        },
+        "total_volume": {
+          "value": 20.0,
+          "unit": "mL"
+        },
+        "additive": {
+          "name": "12-crown-4",
+          "amount": {
+            "value": 5.0,
+            "unit": "mol%"
+          }
+        },
+        "mixing": {
+          "stir_time": {
+            "value": 20.0,
+            "unit": "min"
+          }
+        },
+        "target_temperature": {
+          "value": 30.0,
+          "unit": "°C"
+        }
+      },
+      "apparatus": {
+        "working_electrode": {
+          "description": "glassy C RDE (0.3 cm)",
+          "material": "glassy carbon",
+          "geometry": "RDE",
+          "area": {
+            "value": 0.3,
+            "unit": "cm^2"
+          }
+        },
+        "counter_electrode": "Li foil",
+        "reference_electrode": "Ag/AgCl",
+        "glovebox": {
+          "temperature": {
+            "value": 22.4,
+            "unit": "°C"
+          },
+          "water": {
+            "operator": "<",
+            "value": 1.0,
+            "unit": "ppm"
+          }
+        }
+      },
+      "deposition": {
+        "run_id": "240604-B1",
+        "potential": {
+          "value": -0.45,
+          "unit": "V"
+        },
+        "potential_reference": "Ag/AgCl",
+        "duration": {
+          "value": 90.0,
+          "unit": "min"
+        },
+        "rotation": {
+          "value": 1600.0,
+          "unit": "rpm"
+        },
+        "current_density": {
+          "value": 0.5,
+          "unit": "mA/cm^2"
+        },
+        "electrode_area": {
+          "value": 0.3,
+          "unit": "cm^2"
+        },
+        "derived_current": {
+          "value": 0.00015,
+          "unit": "A"
+        },
+        "charge": {
+          "value": 0.81,
+          "unit": "C"
+        },
+        "faradaic_calculation": {
+          "moles_Li": {
+            "value": 8.4e-06,
+            "unit": "mol"
+          },
+          "mass_Li": {
+            "value": 5.8e-05,
+            "unit": "g"
+          },
+          "electron_stoichiometry": "1 e- per Li+"
+        }
+      }
+    },
+    "results_summary": {
+      "visual": [
+        "Film looks grey + dull"
+      ],
+      "xrd": [
+        {
+          "type": "XRD",
+          "feature": "main peak",
+          "two_theta": {
+            "value": 2.1,
+            "unit": "degree"
+          },
+          "qualifier": "low intensity"
+        },
+        {
+          "type": "XRD",
+          "feature": "shoulder",
+          "two_theta": {
+            "value": 4.7,
+            "unit": "degree"
+          }
+        }
+      ],
+      "interpretation": "A grey/dull film was observed after deposition. XRD notes mention a low-intensity main peak and shoulder, so the page suggests Li-containing deposit formation. Relative to the reference papers, this is preliminary screening evidence rather than proof of a smooth, dense, dendrite-free, or LiF-rich SEI-controlled plating result."
+    },
+    "confidence": 0.82,
+    "limitation": "This is domain reasoning from extracted text, formulas, and known electrochemistry; it is not an independent physical simulation."
+  },
+  "temperature_test": {
+    "description": null,
+    "measurements": [
+      {
+        "time": {
+          "value": 0.0,
+          "unit": "min",
+          "raw": "0 min"
+        },
+        "temperature": {
+          "value": 22.4,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 1.0,
+          "unit": "min",
+          "raw": "1 min"
+        },
+        "temperature": {
+          "value": 23.1,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 5.0,
+          "unit": "min",
+          "raw": "5 min"
+        },
+        "temperature": {
+          "value": 25.6,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 10.0,
+          "unit": "min",
+          "raw": "10 min"
+        },
+        "temperature": {
+          "value": 27.9,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 20.0,
+          "unit": "min",
+          "raw": "20 min"
+        },
+        "temperature": {
+          "value": 30.1,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 40.0,
+          "unit": "min",
+          "raw": "40 min"
+        },
+        "temperature": {
+          "value": 31.5,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 60.0,
+          "unit": "min",
+          "raw": "1 hr"
+        },
+        "temperature": {
+          "value": 32.0,
+          "unit": "°C"
+        }
+      },
+      {
+        "time": {
+          "value": 90.0,
+          "unit": "min",
+          "raw": "1 hr 30 min"
+        },
+        "temperature": {
+          "value": 32.6,
+          "unit": "°C"
+        }
+      }
+    ]
+  },
+  "observations": [
+    {
+      "type": "visual",
+      "text": "Film looks grey + dull"
+    },
+    {
+      "type": "XRD",
+      "feature": "main peak",
+      "two_theta": {
+        "value": 2.1,
+        "unit": "degree"
+      },
+      "qualifier": "low intensity"
+    },
+    {
+      "type": "XRD",
+      "feature": "shoulder",
+      "two_theta": {
+        "value": 4.7,
+        "unit": "degree"
+      }
+    }
+  ],
+  "transcription": [
+    {
+      "region": "header",
+      "text": "cont, from",
+      "confidence": 0.5,
+      "bbox": [
+        1813,
+        38,
+        2039,
+        100
+      ]
+    },
+    {
+      "region": "header",
+      "text": "56",
+      "confidence": 1.0,
+      "bbox": [
+        1955,
+        96,
+        2018,
+        142
+      ]
+    },
+    {
+      "region": "margin",
+      "text": "Page 57",
+      "confidence": 0.3,
+      "bbox": [
+        104,
+        171,
+        314,
+        248
+      ]
+    },
+    {
+      "region": "header",
+      "text": "Project: Li electrodeposition - glyme electrolytes",
+      "confidence": 0.5,
+      "bbox": [
+        427,
+        180,
+        1624,
+        272
+      ]
+    },
+    {
+      "region": "date",
+      "text": "June 4",
+      "confidence": 1.0,
+      "bbox": [
+        105,
+        360,
+        280,
+        419
+      ]
+    },
+    {
+      "region": "goal",
+      "text": "Goal: Screen electrolyte 240604-B for stable Li plating",
+      "confidence": 1.0,
+      "bbox": [
+        439,
+        355,
+        1964,
+        449
+      ]
+    },
+    {
+      "region": "goal",
+      "text": "at 30°C",
+      "confidence": 1.0,
+      "bbox": [
+        624,
+        448,
+        904,
+        507
+      ]
+    },
+    {
+      "region": "recipe",
+      "text": "LiTFSI in diglyme diglyme : EtOH (4:1 v/v),",
+      "confidence": 0.3,
+      "bbox": [
+        886,
+        497,
+        2120,
+        642
+      ]
+    },
+    {
+      "region": "recipe",
+      "text": "Electrolyte: 1 M",
+      "confidence": 0.3,
+      "bbox": [
+        435,
+        522,
+        896,
+        604
+      ]
+    },
+    {
+      "region": "goal",
+      "text": "20mL tot",
+      "confidence": 0.3,
+      "bbox": [
+        1695,
+        607,
+        1972,
+        670
+      ]
+    },
+    {
+      "region": "recipe",
+      "text": "Add 3i 5 mol /",
+      "confidence": 0.3,
+      "bbox": [
+        431,
+        691,
+        942,
+        753
+      ]
+    },
+    {
+      "region": "recipe",
+      "text": "12-crown-4 as additive. Stir 20 min",
+      "confidence": 0.3,
+      "bbox": [
+        1042,
+        695,
+        1967,
+        758
+      ]
+    },
+    {
+      "region": "recipe",
+      "text": "→ T = 22.4°C , glovebox H2O < 1 ppm",
+      "confidence": 0.3,
+      "bbox": [
+        485,
+        773,
+        1478,
+        859
+      ]
+    },
+    {
+      "region": "setup",
+      "text": "Working elec. : glassy C RDE (0.3 cm); CE: Li foil;",
+      "confidence": 0.3,
+      "bbox": [
+        419,
+        837,
+        1972,
+        942
+      ]
+    },
+    {
+      "region": "setup",
+      "text": "ref: Ag/AgCl",
+      "confidence": 0.3,
+      "bbox": [
+        426,
+        927,
+        817,
+        1016
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "Deposition run 240604-B1",
+      "confidence": 0.5,
+      "bbox": [
+        406,
+        1084,
+        1084,
+        1164
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "Apply",
+      "confidence": 0.5,
+      "bbox": [
+        498,
+        1176,
+        615,
+        1260
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "-0.45 V",
+      "confidence": 0.3,
+      "bbox": [
+        620,
+        1185,
+        808,
+        1231
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "vs Ag/AgCl, 90 min, w= 1600 rpm",
+      "confidence": 0.3,
+      "bbox": [
+        829,
+        1168,
+        1628,
+        1260
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "J= 0.50 mA/cm^2",
+      "confidence": 0.3,
+      "bbox": [
+        532,
+        1260,
+        954,
+        1323
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "and",
+      "confidence": 1.0,
+      "bbox": [
+        1051,
+        1264,
+        1134,
+        1314
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "0. 3 cm^2",
+      "confidence": 0.3,
+      "bbox": [
+        1171,
+        1259,
+        1359,
+        1326
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "0.5 mA",
+      "confidence": 0.3,
+      "bbox": [
+        724,
+        1340,
+        887,
+        1407
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "-. 0.3 cm = 1. 5E -4 A",
+      "confidence": 0.3,
+      "bbox": [
+        871,
+        1348,
+        1499,
+        1419
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "cm",
+      "confidence": 0.3,
+      "bbox": [
+        787,
+        1419,
+        875,
+        1461
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "t: 90 min = 5400 s",
+      "confidence": 0.3,
+      "bbox": [
+        963,
+        1432,
+        1381,
+        1486
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "Q = 1.5E-4 A . 5400s = 0.81A.s = 0.81 C",
+      "confidence": 0.3,
+      "bbox": [
+        645,
+        1511,
+        1754,
+        1566
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "0.81 C",
+      "confidence": 0.5,
+      "bbox": [
+        1038,
+        1593,
+        1206,
+        1647
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "n =",
+      "confidence": 0.3,
+      "bbox": [
+        691,
+        1612,
+        749,
+        1645
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "8.4E-6 mol . 6.94, L:",
+      "confidence": 0.3,
+      "bbox": [
+        1436,
+        1599,
+        1926,
+        1662
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "= 5.8E-5 g",
+      "confidence": 0.3,
+      "bbox": [
+        1929,
+        1598,
+        2143,
+        1695
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "Z F",
+      "confidence": 0.3,
+      "bbox": [
+        825,
+        1653,
+        896,
+        1695
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "96485 C/mol",
+      "confidence": 0.3,
+      "bbox": [
+        1050,
+        1669,
+        1327,
+        1726
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "mo/ Li",
+      "confidence": 0.3,
+      "bbox": [
+        1779,
+        1674,
+        1900,
+        1712
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "1 e-",
+      "confidence": 0.3,
+      "bbox": [
+        1432,
+        1746,
+        1494,
+        1792
+      ]
+    },
+    {
+      "region": "deposition",
+      "text": "= 1 Li+",
+      "confidence": 0.3,
+      "bbox": [
+        1503,
+        1746,
+        1641,
+        1787
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "-0.45 V vs As/Agcl",
+      "confidence": 0.3,
+      "bbox": [
+        1042,
+        1857,
+        1457,
+        1936
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "Li+",
+      "confidence": 0.3,
+      "bbox": [
+        557,
+        1905,
+        649,
+        1976
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "+ e-",
+      "confidence": 0.3,
+      "bbox": [
+        858,
+        1900,
+        1000,
+        1972
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "Li",
+      "confidence": 1.0,
+      "bbox": [
+        1482,
+        1909,
+        1549,
+        1959
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "-",
+      "confidence": 0.3,
+      "bbox": [
+        1729,
+        1892,
+        1741,
+        1913
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "0",
+      "confidence": 0.5,
+      "bbox": [
+        419,
+        1930,
+        448,
+        1972
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "•",
+      "confidence": 0.3,
+      "bbox": [
+        1725,
+        1930,
+        1746,
+        1955
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "Li+",
+      "confidence": 0.3,
+      "bbox": [
+        1557,
+        1997,
+        1620,
+        2034
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "F",
+      "confidence": 1.0,
+      "bbox": [
+        1298,
+        2076,
+        1331,
+        2122
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "S",
+      "confidence": 1.0,
+      "bbox": [
+        1453,
+        2101,
+        1478,
+        2131
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "- N-",
+      "confidence": 0.3,
+      "bbox": [
+        1499,
+        2085,
+        1679,
+        2131
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "• F",
+      "confidence": 0.3,
+      "bbox": [
+        1859,
+        2072,
+        1905,
+        2110
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "[L: (I2-crown-Y)] *",
+      "confidence": 0.3,
+      "bbox": [
+        373,
+        2122,
+        791,
+        2210
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "• F",
+      "confidence": 0.3,
+      "bbox": [
+        1850,
+        2122,
+        1892,
+        2160
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "F",
+      "confidence": 1.0,
+      "bbox": [
+        1306,
+        2193,
+        1335,
+        2235
+      ]
+    },
+    {
+      "region": "chemistry",
+      "text": "LiTFSI",
+      "confidence": 1.0,
+      "bbox": [
+        1514,
+        2224,
+        1717,
+        2289
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "Electrode Temperature test : hot",
+      "confidence": 0.5,
+      "bbox": [
+        423,
+        2302,
+        1185,
+        2390
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "plate",
+      "confidence": 1.0,
+      "bbox": [
+        1197,
+        2311,
+        1319,
+        2403
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "30°C",
+      "confidence": 0.5,
+      "bbox": [
+        1465,
+        2307,
+        1574,
+        2361
+      ]
+    },
+    {
+      "region": "observations",
+      "text": "Film looks grey + dull",
+      "confidence": 0.3,
+      "bbox": [
+        1699,
+        2379,
+        2106,
+        2468
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "0 min",
+      "confidence": 0.3,
+      "bbox": [
+        486,
+        2407,
+        586,
+        2461
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "22.4°C",
+      "confidence": 0.3,
+      "bbox": [
+        661,
+        2407,
+        812,
+        2457
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "20 min",
+      "confidence": 1.0,
+      "bbox": [
+        929,
+        2407,
+        1067,
+        2453
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "30.1°C",
+      "confidence": 0.3,
+      "bbox": [
+        1197,
+        2407,
+        1344,
+        2453
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "1 min 23.1°C",
+      "confidence": 0.3,
+      "bbox": [
+        477,
+        2482,
+        800,
+        2545
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "40 min",
+      "confidence": 0.3,
+      "bbox": [
+        942,
+        2491,
+        1055,
+        2533
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "31.5°C",
+      "confidence": 0.3,
+      "bbox": [
+        1218,
+        2486,
+        1356,
+        2533
+      ]
+    },
+    {
+      "region": "observations",
+      "text": "XRD main peak at",
+      "confidence": 0.5,
+      "bbox": [
+        1691,
+        2472,
+        2077,
+        2555
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "5 min",
+      "confidence": 1.0,
+      "bbox": [
+        477,
+        2566,
+        590,
+        2612
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "25.6°C",
+      "confidence": 0.3,
+      "bbox": [
+        657,
+        2574,
+        804,
+        2620
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "1 hr",
+      "confidence": 0.3,
+      "bbox": [
+        971,
+        2558,
+        1042,
+        2604
+      ]
+    },
+    {
+      "region": "observations",
+      "text": "2θ = 2.1° (low intens.)",
+      "confidence": 0.3,
+      "bbox": [
+        1695,
+        2549,
+        2118,
+        2612
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "32.0°C",
+      "confidence": 0.3,
+      "bbox": [
+        1222,
+        2570,
+        1356,
+        2616
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "10 min",
+      "confidence": 0.3,
+      "bbox": [
+        463,
+        2642,
+        579,
+        2704
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "27.9°C",
+      "confidence": 0.3,
+      "bbox": [
+        678,
+        2658,
+        804,
+        2704
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "1 hr 30 min",
+      "confidence": 0.3,
+      "bbox": [
+        929,
+        2641,
+        1101,
+        2696
+      ]
+    },
+    {
+      "region": "observations",
+      "text": "Shoulder at 2θ = 4.7°",
+      "confidence": 0.3,
+      "bbox": [
+        1687,
+        2631,
+        2114,
+        2692
+      ]
+    },
+    {
+      "region": "temperature_test",
+      "text": "32.6°C",
+      "confidence": 0.5,
+      "bbox": [
+        1218,
+        2650,
+        1360,
+        2700
+      ]
+    }
+  ],
+  "quality": {
+    "recognition_adapter": "apple_vision",
+    "minimum_line_confidence": 0.3,
+    "optional_dependencies": {
+      "opencv": true,
+      "rapidfuzz": true,
+      "local_deps": true
+    },
+    "preprocessing": null,
+    "notes": [
+      "The parser preserves scientific symbols such as °C, 2θ, cm^2, e-, and Li+.",
+      "Hand-drawn structures are represented as interpreted chemical entities with provenance regions.",
+      "Reference papers are used only in experiment_interpretation; they are not used to fill OCR text, procedure fields, chemicals, conditions, calculations, or observations."
+    ]
+  }
+}
