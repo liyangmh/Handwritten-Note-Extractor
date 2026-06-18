@@ -150,7 +150,3 @@ For human review, open the Markdown reports in `reports/`. They summarize the sa
 - Hand-drawn structures are interpreted using chemistry-aware templates and page context. This is not general atom-by-atom molecular graph recognition for arbitrary unknown structures.
 - Reference papers improve experiment interpretation only. They do not improve raw OCR and are not used to fill missing note data.
 - The experiment interpretation is evidence-aware: the page suggests Li deposition, but it does not prove dendrite-free or SEI-controlled plating without controls, microscopy, XPS, cycling data, or stronger phase analysis.
-
-## Demo Video
-
-For the required two-minute demonstration, use `DEMO_VIDEO_SCRIPT.md`. It gives a timed screen-recording plan, narration, and exact commands to show the Apple Vision image-to-JSON pipeline plus validation report.
